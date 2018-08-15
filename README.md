@@ -1,6 +1,8 @@
 # Spleen
 
-Spleen is a hand-drawn bitmap font which is available in 4 sizes:
+Spleen is a monospaced bitmap font for consoles and terminals.
+
+It is available in 4 sizes:
 
 - 5x8
 - 8x16
@@ -18,6 +20,7 @@ printable ASCII characters for now (96 characters per font).
 - Add extended character set for sizes where it makes sense (everything but
   the 5x8 version)
 - Release 1.0.0
+- Add bigger sizes (24x48 and 32x64) for 4K monitors
 
 ## Usage
 
