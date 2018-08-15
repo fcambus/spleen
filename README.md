@@ -7,6 +7,8 @@ Spleen is a hand-drawn bitmap font which is available in 4 sizes:
 - 12x24
 - 16x32
 
+Each size is provided in the Glyph Bitmap Distribution Format (BDF).
+
 The project is still in its early infancy. The fonts only contain
 printable ASCII characters for now (96 characters per font).
 
@@ -19,7 +21,7 @@ printable ASCII characters for now (96 characters per font).
 
 ## Usage
 
-Update your font path to include **Spleen*:
+Update your font path to include **Spleen**:
 
 	xset +fp /usr/local/share/fonts/spleen/
 
