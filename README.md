@@ -11,8 +11,8 @@ It is available in 4 sizes:
 
 Each size is provided in the Glyph Bitmap Distribution Format (BDF).
 
-The project is still in its early infancy. The fonts only contain
-printable ASCII characters for now (96 characters per font).
+All font sizes contain all ISO/IEC 8859-1 characters, expect for the 5x8
+version which only contains printable ASCII characters.
 
 ## Screenshots
 
