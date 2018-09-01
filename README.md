@@ -11,7 +11,7 @@ It is available in 4 sizes:
 
 Each size is provided in the Glyph Bitmap Distribution Format (BDF).
 
-All font sizes contain all ISO/IEC 8859-1 characters, expect for the 5x8
+All font sizes contain all ISO/IEC 8859-1 characters, except for the 5x8
 version which only contains printable ASCII characters.
 
 ## Screenshots
