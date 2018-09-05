@@ -27,8 +27,6 @@ Spleen 8x16:
 ## Roadmap
 
 - Fix glyphes and alignment for all sizes
-- Add extended character set for sizes where it makes sense (everything but
-  the 5x8 version)
 - Release 1.0.0
 - Add bigger sizes (24x48 and 32x64) for 4K monitors
 
