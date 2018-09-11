@@ -2,12 +2,13 @@
 
 Spleen is a monospaced bitmap font for consoles and terminals.
 
-It is available in 4 sizes:
+It is available in 5 sizes:
 
 - 5x8
 - 8x16
 - 12x24
 - 16x32
+- 32x64
 
 Each size is provided in the Glyph Bitmap Distribution Format (BDF).
 
@@ -27,8 +28,8 @@ Spleen 8x16:
 ## Roadmap
 
 - Fix glyphes and alignment for all sizes
-- Release 1.0.0
 - Add bigger sizes (24x48 and 32x64) for 4K monitors
+- Release 1.0.0
 
 ## Usage
 
@@ -42,6 +43,7 @@ Update **.Xdefaults** and add one of the following directives:
 	xterm*faceName: spleen:pixelsize=16:antialias=false
 	xterm*faceName: spleen:pixelsize=24:antialias=false
 	xterm*faceName: spleen:pixelsize=32:antialias=false
+	xterm*faceName: spleen:pixelsize=64:antialias=false
 
 ## License
 
