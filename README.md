@@ -28,7 +28,6 @@ Spleen 8x16:
 ## Roadmap
 
 - Fix glyphes and alignment for all sizes
-- Add bigger sizes (24x48 and 32x64) for 4K monitors
 - Release 1.0.0
 
 ## Usage
