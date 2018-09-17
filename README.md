@@ -17,13 +17,7 @@ version which only contains printable ASCII characters.
 
 ## Screenshots
 
-Spleen 5x8:
-
-![Spleen 5x8 Screenshot][1]
-
-Spleen 8x16:
-
-![Spleen 8x16 Screenshot][2]
+![Spleen - L'etranger][1]
 
 ## Roadmap
 
@@ -59,5 +53,4 @@ Spleen is developed by Frederic Cambus.
 
 GitHub: https://github.com/fcambus/spleen
 
-[1]: https://www.cambus.net/files/spleen/spleen-5x8.png
-[2]: https://www.cambus.net/files/spleen/spleen-8x16.png
+[1]: https://www.cambus.net/content/2018/09/spleen-etranger.png
