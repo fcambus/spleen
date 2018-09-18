@@ -18,6 +18,8 @@ version which only contains printable ASCII characters.
 
 ## Screenshots
 
+The following screenshots show Spleen 16x32 displaying code and prose.
+
 ![Spleen - Hello][1]
 
 ![Spleen - L'etranger][2]
