@@ -17,12 +17,10 @@ version which only contains printable ASCII characters.
 
 ## Screenshots
 
-![Spleen - L'etranger][1]
+![Spleen - Hello][1]
 
-## Roadmap
+![Spleen - L'etranger][2]
 
-- Fix glyphes and alignment for all sizes
-- Release 1.0.0
 
 ## Usage
 
@@ -53,4 +51,5 @@ Spleen is developed by Frederic Cambus.
 
 GitHub: https://github.com/fcambus/spleen
 
-[1]: https://www.cambus.net/content/2018/09/spleen-etranger.png
+[1]: https://www.cambus.net/content/2018/09/spleen-hello.png
+[2]: https://www.cambus.net/content/2018/09/spleen-etranger.png
