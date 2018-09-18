@@ -76,5 +76,5 @@ Spleen is developed by Frederic Cambus.
 
 GitHub: https://github.com/fcambus/spleen
 
-[1]: https://www.cambus.net/content/2018/09/spleen-hello.png?v=1.0.0
-[2]: https://www.cambus.net/content/2018/09/spleen-etranger.png?v=1.0.0
+[1]: https://www.cambus.net/content/2018/09/spleen-hello.png
+[2]: https://www.cambus.net/content/2018/09/spleen-etranger.png
