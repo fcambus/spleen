@@ -10,7 +10,8 @@ It is available in 5 sizes:
 - 16x32
 - 32x64
 
-Each size is provided in the Glyph Bitmap Distribution Format (BDF).
+Each size is provided in the Glyph Bitmap Distribution Format (BDF), and
+in the `.dfont` format for Macintosh users.
 
 All font sizes contain all ISO/IEC 8859-1 characters, except for the 5x8
 version which only contains printable ASCII characters.
@@ -21,10 +22,22 @@ version which only contains printable ASCII characters.
 
 ![Spleen - L'etranger][2]
 
+## Installation
+
+### *BSD and Linux
+
+Clone the repository, convert the files to the Portable Compiled Format
+(PCF) using **bdftopcf** and run **mkfontdir** in the directory.
+
+### macOS
+
+macOS users should use the provided `.dfont` files.
 
 ## Usage
 
-Update your font path to include **Spleen**:
+### *BSD and Linux
+
+Update the font path to include **Spleen**:
 
 	xset +fp /usr/local/share/fonts/spleen/
 
@@ -35,6 +48,18 @@ Update **.Xdefaults** and add one of the following directives:
 	xterm*faceName: spleen:pixelsize=24:antialias=false
 	xterm*faceName: spleen:pixelsize=32:antialias=false
 	xterm*faceName: spleen:pixelsize=64:antialias=false
+
+Launch **xterm**.
+
+### macOS
+
+Configure the terminal application to use Spleen and use the following sizes:
+
+- Spleen 5x8: size 5
+- Spleen 8x16: size 8
+- Spleen 12x24: size 12
+- Spleen 16x32: size 16
+- Spleen 32x64: size 32
 
 ## License
 
@@ -51,5 +76,5 @@ Spleen is developed by Frederic Cambus.
 
 GitHub: https://github.com/fcambus/spleen
 
-[1]: https://www.cambus.net/content/2018/09/spleen-hello.png
-[2]: https://www.cambus.net/content/2018/09/spleen-etranger.png
+[1]: https://www.cambus.net/content/2018/09/spleen-hello.png?v=1.0.0
+[2]: https://www.cambus.net/content/2018/09/spleen-etranger.png?v=1.0.0
