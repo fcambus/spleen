@@ -31,7 +31,7 @@ The following screenshots show Spleen 16x32 displaying code and prose.
 Clone the repository, convert the files to the Portable Compiled Format
 (PCF) using **bdftopcf** and run **mkfontdir** in the directory.
 
-### macOS
+### Mac OS X / macOS
 
 macOS users should use the provided `.dfont` files.
 
@@ -53,7 +53,7 @@ Update **.Xdefaults** and add one of the following directives:
 
 Launch **xterm**.
 
-### macOS
+### Mac OS X / macOS
 
 Configure the terminal application to use Spleen and use the following sizes:
 
