@@ -1,8 +1,6 @@
 # Spleen
 
-Spleen is a monospaced bitmap font for consoles and terminals.
-
-It is available in 5 sizes:
+Spleen is a monospaced bitmap font available in 5 sizes:
 
 - 5x8
 - 8x16
