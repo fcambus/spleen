@@ -32,7 +32,14 @@ The following screenshots show Spleen 16x32 displaying code and prose.
 "-misc-spleen-medium-r-normal--64-640-72-72-c-320-iso10646-1"
 ```
 
-## Installation
+## Packages
+
+Packages are available for the following operating systems:
+
+- [OpenBSD][3]
+- [FreeBSD][4]
+
+## Manual installation
 
 ### *BSD and Linux
 
@@ -88,3 +95,5 @@ GitHub: https://github.com/fcambus/spleen
 
 [1]: https://www.cambus.net/content/2018/09/spleen-hello.png
 [2]: https://www.cambus.net/content/2018/09/spleen-etranger.png
+[3]: https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/fonts/spleen/
+[4]: https://www.freshports.org/x11-fonts/spleen/
