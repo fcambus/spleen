@@ -22,6 +22,16 @@ The following screenshots show Spleen 16x32 displaying code and prose.
 
 ![Spleen - L'etranger][2]
 
+## XLFD font names
+
+```
+"-misc-spleen-medium-r-normal--8-80-72-72-c-50-iso10646-1"
+"-misc-spleen-medium-r-normal--16-160-72-72-c-80-iso10646-1"
+"-misc-spleen-medium-r-normal--24-240-72-72-c-120-iso10646-1"
+"-misc-spleen-medium-r-normal--32-320-72-72-c-160-iso10646-1"
+"-misc-spleen-medium-r-normal--64-640-72-72-c-320-iso10646-1"
+```
+
 ## Installation
 
 ### *BSD and Linux
