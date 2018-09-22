@@ -38,6 +38,7 @@ Packages are available for the following operating systems:
 
 - [OpenBSD][3]
 - [FreeBSD][4]
+- [Arch Linux][5]
 
 ## Manual installation
 
@@ -97,3 +98,4 @@ GitHub: https://github.com/fcambus/spleen
 [2]: https://www.cambus.net/content/2018/09/spleen-etranger.png
 [3]: https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/fonts/spleen/
 [4]: https://www.freshports.org/x11-fonts/spleen/
+[5]: https://aur.archlinux.org/packages/bdf-spleen/
