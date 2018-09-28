@@ -1,0 +1,17 @@
+Spleen 1.0.1 (2018-09-28)
+
+- Documentation updates: add XLFD font names and operating system packages
+  section
+- Improve ampersand character, make superscript digits thicker, shift
+  percent sign, asterisk, plus, minus, and equal signs one pixel up, for
+  alignment (8x16 version)
+- Shift asterisk character up by one pixel, to align it with minus and plus
+  signs (12x24 version)
+- Improve percent sign alignment and make it more consistent with other
+  sizes (16x32 and 32x64 versions)
+
+
+
+Spleen 1.0.0 (2018-09-18)
+
+- Initial release
