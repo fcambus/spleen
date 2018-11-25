@@ -11,7 +11,7 @@ COMMENT  * Spleen is released under the BSD 2-Clause license.
 COMMENT  * See LICENSE file for details.
 COMMENT  */
 FONT "-misc-spleen-medium-r-normal--16-160-72-72-C-80-iso10646-1"
-SIZE 11 75 75
+SIZE 16 72 72
 FONTBOUNDINGBOX 8 16 0 -4
 STARTPROPERTIES 17
 FAMILY_NAME "Spleen"
