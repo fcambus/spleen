@@ -14,6 +14,8 @@ in the `.dfont` format for Macintosh users.
 All font sizes contain all ISO/IEC 8859-1 characters, except for the 5x8
 version which only contains printable ASCII characters.
 
+The font name is a reference to Baudelaire.
+
 ## Screenshots
 
 The following screenshots show Spleen 16x32 displaying code and prose.
