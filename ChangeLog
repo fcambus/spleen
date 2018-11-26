@@ -1,3 +1,23 @@
+Spleen 1.0.2 (2018-11-26)
+
+- Tweak 'f' and 't' characters to make them more consistent (8x16 version)
+- Make the upper case 'K' middle bar shorter, helps differentiating it from
+  upper case 'H' (5x8, 12x24, 16x32)
+- Fix alignement of parentheses with square brackets and braces (32x64 version)
+- Fix SIZE, MIN_SPACE, and SWIDTH properties for all fonts
+- Make the at sign higher (8x16, 12x24, 16x32, and 32x64 versions)
+- Harmonize angle quotes (8x16, 12x24, 16x32, and 32x64 versions)
+- Flip lower case 'n' with tilde horizontally, to match the normal 'n'
+  character (8x16, 12x24, 16x32, and 32x64 versions)
+- Remove artefacts from 'C', 'c' and 'F' character for all fonts
+- Remove artefact from the upper case 'G' character (8x16, 12x24, 16x32,
+  and 32x64 versions)
+- Remove artefacts from 'C' and 'c' derived characters (8x16, 12x24,
+  16x32, and 32x64 versions)
+- Set DEFAULT_CHAR to 32, as we don't have a 0 char
+
+
+
 Spleen 1.0.1 (2018-09-28)
 
 - Documentation updates: add XLFD font names and operating system packages
