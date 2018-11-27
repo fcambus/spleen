@@ -12,7 +12,8 @@ Each size is provided in the Glyph Bitmap Distribution Format (BDF), and
 in the `.dfont` format for Macintosh users.
 
 All font sizes contain all ISO/IEC 8859-1 characters, except for the 5x8
-version which only contains printable ASCII characters.
+version which only contains printable ASCII characters due to character
+size constraints.
 
 The font name is a reference to Baudelaire.
 
