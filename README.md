@@ -40,8 +40,9 @@ The following screenshots show Spleen 16x32 displaying code and prose.
 Packages are available for the following operating systems:
 
 - [OpenBSD][3]
-- [FreeBSD][4]
-- [Arch Linux][5]
+- [NetBSD][4]
+- [FreeBSD][5]
+- [Arch Linux][6]
 
 ## Manual installation
 
@@ -100,5 +101,6 @@ GitHub: https://github.com/fcambus/spleen
 [1]: https://www.cambus.net/content/2018/09/spleen-hello.png
 [2]: https://www.cambus.net/content/2018/09/spleen-etranger.png
 [3]: https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/fonts/spleen/
-[4]: https://www.freshports.org/x11-fonts/spleen/
-[5]: https://aur.archlinux.org/packages/bdf-spleen/
+[4]: http://pkgsrc.se/fonts/spleen
+[5]: https://www.freshports.org/x11-fonts/spleen/
+[6]: https://aur.archlinux.org/packages/bdf-spleen/
