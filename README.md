@@ -43,6 +43,7 @@ Packages are available for the following operating systems:
 - [NetBSD][4]
 - [FreeBSD][5]
 - [Arch Linux][6]
+- [Void Linux][7]
 
 ## Manual installation
 
@@ -104,3 +105,4 @@ GitHub: https://github.com/fcambus/spleen
 [4]: http://pkgsrc.se/fonts/spleen
 [5]: https://www.freshports.org/x11-fonts/spleen/
 [6]: https://aur.archlinux.org/packages/bdf-spleen/
+[7]: https://github.com/void-linux/void-packages/tree/master/srcpkgs/font-spleen
