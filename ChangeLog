@@ -1,3 +1,18 @@
+Spleen 1.0.4 (2019-02-??)
+
+- Remove quotation marks around XLFD font names
+- Remove strain pixels on the inner upper part of parentheses (16x32 version)
+- Harmonize the 'v' and 'V' characters across all sizes
+- Remove artefacts from the 'c' in the copyright sign (8x16, 12x24, 16x32, and
+  32x64 versions)
+- Make the upper left corner of the 'R' sharp in the registered sign (16x32,
+  and 32x64 versions)
+- Add initial Makefile, allowing to easily generate formats other than BDF
+- Remove all .dfont files from the repository, formats other than BDF are now
+  only distributed in release tarballs
+
+
+
 Spleen 1.0.3 (2018-12-01)
 
 - Remove extra pixel from the '@' character (12x24 version)
