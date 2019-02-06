@@ -76,13 +76,16 @@ Launch **xterm**.
 
 ### Mac OS X / macOS
 
-Configure the terminal application to use Spleen and use the following sizes:
+Configure the terminal application to use Spleen, and make sure anti-aliasing
+is disabled.
 
-- Spleen 5x8: size 5
-- Spleen 8x16: size 8
-- Spleen 12x24: size 12
-- Spleen 16x32: size 16
-- Spleen 32x64: size 32
+Use the following sizes:
+
+- Spleen 5x8: 8 Pt
+- Spleen 8x16: 16 Pt
+- Spleen 12x24: 24 Pt
+- Spleen 16x32: 32 Pt
+- Spleen 32x64: 64 Pt
 
 ## License
 
