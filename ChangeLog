@@ -1,4 +1,4 @@
-Spleen 1.0.4 (2019-02-??)
+Spleen 1.0.4 (2019-02-07)
 
 - Remove quotation marks around XLFD font names
 - Remove strain pixels on the inner upper part of parentheses (16x32 version)
@@ -10,6 +10,7 @@ Spleen 1.0.4 (2019-02-??)
 - Add initial Makefile, allowing to easily generate formats other than BDF
 - Remove all .dfont files from the repository, formats other than BDF are now
   only distributed in release tarballs
+- Provide generated fonts in PCF, PSF, and .dfont formats
 
 
 
