@@ -9,7 +9,8 @@ Spleen is a monospaced bitmap font available in 5 sizes:
 - 32x64
 
 Each size is provided in the Glyph Bitmap Distribution Format (BDF), and
-in the `.dfont` format for Macintosh users.
+release tarballs contain the fonts in the following formats: `PCF`, `PSF`
+(for the Linux console), and `.dfont` for Macintosh users.
 
 All font sizes contain all ISO/IEC 8859-1 characters, except for the 5x8
 version which only contains printable ASCII characters due to character
@@ -54,7 +55,7 @@ Clone the repository, convert the files to the Portable Compiled Format
 
 ### Mac OS X / macOS
 
-macOS users should use the provided `.dfont` files.
+macOS users should use the provided `.dfont` file containing all sizes.
 
 ## Usage
 
@@ -73,6 +74,11 @@ Update **.Xdefaults** and add one of the following directives:
 	xterm*faceName: spleen:pixelsize=64:antialias=false
 
 Launch **xterm**.
+
+### Linux console
+
+Release tarballs provide PSF files for each size, `setfont` can be used
+to load and set the desired font.
 
 ### Mac OS X / macOS
 
