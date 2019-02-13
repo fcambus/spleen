@@ -4,7 +4,7 @@
 # https://www.cambus.net/
 #
 # Created:      2019-01-29
-# Last Updated: 2019-02-08
+# Last Updated: 2019-02-13
 #
 # Spleen is released under the BSD 2-Clause license.
 # See LICENSE file for details.
@@ -41,3 +41,12 @@ psf:
 dfont:
 	$(UFOND) -dfont *.bdf
 	mv Spleen.fam.dfont spleen.dfont
+
+screenshots:
+.for size in $(SIZES)
+	awk 'BEGIN { for(chr = 32; chr < 127; chr++) printf "%c", chr }' | \
+	pbmtext -font spleen-${size}.bdf -nomargins | \
+	ppmchange black "#aaa" | \
+	ppmchange white black | \
+	pnmtopng > spleen-${size}.png
+.endfor
