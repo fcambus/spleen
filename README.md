@@ -26,6 +26,26 @@ The following screenshots show Spleen 16x32 displaying code and prose.
 
 ![Spleen - L'etranger][2]
 
+ASCII characters for all sizes:
+
+Spleen 5x8:
+
+![Spleen - ASCII characters - 5x8][3]
+
+Spleen 8x16:
+
+![Spleen - ASCII characters - 8x16][4]
+
+Spleen 12x24:
+
+![Spleen - ASCII characters - 12x24][5]
+
+Spleen 16x32:
+![Spleen - ASCII characters - 16x32][6]
+
+Spleen 32x64:
+![Spleen - ASCII characters - 32x64][7]
+
 ## XLFD font names
 
 ```
@@ -40,11 +60,11 @@ The following screenshots show Spleen 16x32 displaying code and prose.
 
 Packages are available for the following operating systems:
 
-- [OpenBSD][3]
-- [NetBSD][4]
-- [FreeBSD][5]
-- [Arch Linux][6]
-- [Void Linux][7]
+- [OpenBSD][8]
+- [NetBSD][9]
+- [FreeBSD][10]
+- [Arch Linux][11]
+- [Void Linux][12]
 
 ## Manual installation
 
@@ -110,8 +130,13 @@ GitHub: https://github.com/fcambus/spleen
 
 [1]: https://www.cambus.net/content/2018/09/spleen-hello.png
 [2]: https://www.cambus.net/content/2018/09/spleen-etranger.png
-[3]: https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/fonts/spleen/
-[4]: http://pkgsrc.se/fonts/spleen
-[5]: https://www.freshports.org/x11-fonts/spleen/
-[6]: https://aur.archlinux.org/packages/bdf-spleen/
-[7]: https://github.com/void-linux/void-packages/tree/master/srcpkgs/font-spleen
+[3]: https://www.cambus.net/files/spleen/spleen-5x8.png
+[4]: https://www.cambus.net/files/spleen/spleen-8x16.png
+[5]: https://www.cambus.net/files/spleen/spleen-12x24.png
+[6]: https://www.cambus.net/files/spleen/spleen-16x32.png
+[7]: https://www.cambus.net/files/spleen/spleen-32x64.png
+[8]: https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/fonts/spleen/
+[9]: http://pkgsrc.se/fonts/spleen
+[10]: https://www.freshports.org/x11-fonts/spleen/
+[11]: https://aur.archlinux.org/packages/bdf-spleen/
+[12]: https://github.com/void-linux/void-packages/tree/master/srcpkgs/font-spleen
