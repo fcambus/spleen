@@ -5,7 +5,7 @@ COMMENT  * Copyright (c) 2018-2019, Frederic Cambus
 COMMENT  * https://www.cambus.net/
 COMMENT  *
 COMMENT  * Created:      2018-08-08
-COMMENT  * Last Updated: 2018-12-03
+COMMENT  * Last Updated: 2019-05-30
 COMMENT  *
 COMMENT  * Spleen is released under the BSD 2-Clause license.
 COMMENT  * See LICENSE file for details.
@@ -1138,10 +1138,10 @@ BITMAP
 00
 20
 00
+60
 20
 20
-20
-20
+30
 00
 ENDCHAR
 STARTCHAR LATIN SMALL LETTER J
