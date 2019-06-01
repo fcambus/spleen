@@ -1,3 +1,18 @@
+Spleen 1.0.5 (2019-06-01)
+
+- Initial support for the Latin Extended-A Unicode block, all sizes but
+  5x8 now have all Polish characters available
+- Shift the middle bar of the upper case 'G' one pixel down (12x24 version)
+- Shift lower case 'k' character right, for better alignment (12x24, 16x32,
+  and 32x64 versions)
+- Make upper case 'X' thicker (16x32 and 32x64 versions)
+- Make upper case 'V' thicker (32x64 version)
+- Make lower case 'g' character smoother (16x32 and 32x64 versions)
+- Add some artefacts on each side of the lower case 'i'
+- Also add artefacts on each side of accented lower case 'i' characters
+
+
+
 Spleen 1.0.4 (2019-02-07)
 
 - Remove quotation marks around XLFD font names
