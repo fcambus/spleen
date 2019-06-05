@@ -100,6 +100,15 @@ Launch **xterm**.
 Release tarballs provide PSF files for each size, `setfont` can be used
 to load and set the desired font.
 
+### FreeBSD console
+
+The FreeBSD package contains .fnt files which can be loaded using
+vidcontrol(1).
+
+For example, to load Spleen 16x32:
+
+	vidcontrol -f /usr/local/share/fonts/spleen/spleen-16x32.fnt
+
 ### Mac OS X / macOS
 
 Configure the terminal application to use Spleen, and make sure anti-aliasing
