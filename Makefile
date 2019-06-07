@@ -50,6 +50,7 @@ screenshots:
 	ppmchange white black | \
 	pnmtopng > spleen-${size}.png
 .endfor
+	optipng *.png
 
 clean:
 	rm -f *.pcf *.psfu *.dfont *.png
