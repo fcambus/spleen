@@ -12,7 +12,6 @@
 
 BDFTOPCF ?=	bdftopcf
 BDF2PSF ?=	bdf2psf
-UFOND ?=	ufond
 
 PREFIX ?=	/usr/local
 DATADIR ?=	$(PREFIX)/share/bdf2psf
@@ -26,7 +25,7 @@ SIZES =		5x8 8x16 12x24 16x32 32x64
 
 TARGET =	all
 
-all:	pcf psf dfont
+all:	pcf psf
 
 pcf:
 .for size in $(SIZES)
@@ -37,10 +36,6 @@ psf:
 .for size in $(SIZES)
 	$(BDF2PSF) --fb spleen-${size}.bdf $(OPTIONS) spleen-${size}.psfu
 .endfor
-
-dfont:
-	$(UFOND) -dfont *.bdf
-	mv Spleen.fam.dfont spleen.dfont
 
 screenshots:
 .for size in $(SIZES)
