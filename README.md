@@ -65,6 +65,7 @@ Packages are available for the following operating systems:
 - [FreeBSD][10]
 - [Arch Linux][11]
 - [Void Linux][12]
+- [Nix][13]
 
 ## Manual installation
 
@@ -149,3 +150,4 @@ GitHub: https://github.com/fcambus/spleen
 [10]: https://www.freshports.org/x11-fonts/spleen/
 [11]: https://aur.archlinux.org/packages/bdf-spleen/
 [12]: https://github.com/void-linux/void-packages/tree/master/srcpkgs/font-spleen
+[13]: https://github.com/NixOS/nixpkgs/tree/master/pkgs/data/fonts/spleen
