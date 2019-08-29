@@ -12,9 +12,10 @@ Each size is provided in the Glyph Bitmap Distribution Format (BDF), and
 release tarballs contain the fonts in the following formats: `PCF`, `PSF`
 (for the Linux console), and `.dfont` for Macintosh users.
 
-All font sizes contain all ISO/IEC 8859-1 characters, except for the 5x8
-version which only contains printable ASCII characters due to character
-size constraints.
+All font sizes contain all ISO/IEC 8859-1 characters (Basic Latin and Latin-1
+Supplement unicode block) and Latin Extended-A characters, except for the 5x8
+version which only contains printable ASCII characters due to character size
+constraints.
 
 The font name is a reference to Baudelaire.
 
