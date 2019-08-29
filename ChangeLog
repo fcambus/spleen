@@ -1,3 +1,22 @@
+Spleen 1.1.0 (2019-08-29)
+
+- Added instructions on how to use Spleen in the FreeBSD console
+- Optimize generated screenshots with OptiPNG
+- Remove the dfont target in Makefile, generated files do not work on
+  modern macOS versions
+- Add full support for the Latin Extended-A Unicode block
+- Add euro symbol
+- Character at position CB is 'E' with diaeresis, not with tilde (12x24 version)
+- Character at position D6 is 'O' with diaeresis, not with tilde (12x24 version)
+- Character at position DC is 'U' with diaeresis, not with tilde (12x24 version)
+- Fix tilde alignment in the 'o' with tilde character (32x64 version)
+- Fix middle bar thickness in the upper case 'eth' character (12x24 version)
+- Fix ring alignment for the 'A' and 'a' characters (16x32 and 32x64 versions)
+- Remove strain pixel on the '3' and 'k' characters (32x64 version)
+- Remove fillers for characters other than ISO 8859-1 ones (5x8 version)
+
+
+
 Spleen 1.0.5 (2019-06-01)
 
 - Initial support for the Latin Extended-A Unicode block, all sizes but
