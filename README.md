@@ -97,6 +97,9 @@ Update **.Xdefaults** and add one of the following directives:
 
 Launch **xterm**.
 
+Ubuntu has bitmap fonts support disabled by default, instructions to enable
+it is available [here][14].
+
 ### Linux console
 
 Release tarballs provide PSF files for each size, `setfont` can be used
@@ -152,3 +155,4 @@ GitHub: https://github.com/fcambus/spleen
 [11]: https://aur.archlinux.org/packages/bdf-spleen/
 [12]: https://github.com/void-linux/void-packages/tree/master/srcpkgs/font-spleen
 [13]: https://github.com/NixOS/nixpkgs/tree/master/pkgs/data/fonts/spleen
+[14]: https://wiki.ubuntu.com/Fonts#Enabling_Bitmapped_Fonts
