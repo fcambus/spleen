@@ -71,9 +71,15 @@ specimen:
 	ppmchange white "#ff2a7f" | \
 	ppmchange black "#fff"  > digits.pnm
 
-	pnmcat -tb spleen.pnm examples.pnm future.pnm letters.pnm digits.pnm | \
-	pnmtopng > specimen.png
+	pnmcat -tb spleen.pnm examples.pnm future.pnm letters.pnm digits.pnm > specimen.pnm
 
+	echo "a" | \
+	pbmtext -font spleen-32x64.bdf -nomargins | \
+	ppmchange white "#ff7f2a" | \
+	ppmchange black "#fff" | \
+	pnmscale 4 | \
+	pnmpaste - 364 100 specimen.pnm | \
+	pnmtopng > specimen.png
 	rm *.pnm
 	optipng *.png
 
