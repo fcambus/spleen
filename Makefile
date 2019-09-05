@@ -84,4 +84,4 @@ specimen:
 	optipng *.png
 
 clean:
-	rm -f *.pcf *.psfu *.dfont *.png
+	rm -f *.gz *.pcf *.psfu *.dfont *.png
