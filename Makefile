@@ -1,10 +1,10 @@
 #
-# Spleen 1.1.0
+# Spleen 1.2.0
 # Copyright (c) 2018-2019, Frederic Cambus
 # https://www.cambus.net/
 #
 # Created:      2019-01-29
-# Last Updated: 2019-09-04
+# Last Updated: 2019-09-06
 #
 # Spleen is released under the BSD 2-Clause license.
 # See LICENSE file for details.
