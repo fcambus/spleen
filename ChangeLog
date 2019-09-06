@@ -1,3 +1,12 @@
+Spleen 1.2.0 (2019-09-06)
+
+- Add link to instructions on how to enable bitmap fonts support on Ubuntu
+- Add a Makefile target to generate a specimen file
+- Add full support for the Braille Patterns Unicode block
+- Add light box drawings characters for the 16x32 and 32x64 versions
+
+
+
 Spleen 1.1.0 (2019-08-29)
 
 - Added instructions on how to use Spleen in the FreeBSD console
