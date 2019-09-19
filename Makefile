@@ -4,7 +4,7 @@
 # https://www.cambus.net/
 #
 # Created:      2019-01-29
-# Last Updated: 2019-09-06
+# Last Updated: 2019-09-19
 #
 # Spleen is released under the BSD 2-Clause license.
 # See LICENSE file for details.
@@ -84,4 +84,4 @@ specimen:
 	optipng *.png
 
 clean:
-	rm -f *.gz *.pcf *.psfu *.dfont *.png
+	rm -f *.bak *.gz *.pcf *.psfu *.dfont *.png
