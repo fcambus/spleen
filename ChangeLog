@@ -1,3 +1,15 @@
+Spleen 1.4.0 (2019-09-24)
+
+- Add left and right single quotation mark characters, both identical to
+  an apostrophe
+- Add left and right double quotation mark characters, both identical to
+  ASCII quotation mark
+- Add bullet and horizontal ellipsis characters
+- Add the eight trigrams
+- Add full support for the Block Elements Unicode block
+
+
+
 Spleen 1.3.0 (2019-09-12)
 
 - Add full support for the Box Drawing Unicode block
