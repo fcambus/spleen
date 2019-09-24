@@ -13,8 +13,8 @@ release tarballs contain the fonts in the following formats: `PCF`, `PSF`
 (for the Linux console), and `.dfont` for Macintosh users.
 
 All font sizes contain all ISO/IEC 8859-1 characters (Basic Latin and Latin-1
-Supplement Unicode block), Latin Extended-A characters, and both Box Drawing
-and Braille Patterns Unicode blocks, except for the 5x8 version.
+Supplement Unicode block), Latin Extended-A characters, as well as Box Drawing,
+Block Elements, and Braille Patterns Unicode blocks, except for the 5x8 version.
 
 Due to character size constraints, the 5x8 version only contains printable
 ASCII characters.
