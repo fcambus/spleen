@@ -144,6 +144,12 @@ Spleen is developed by Frederic Cambus.
 
 GitHub: https://github.com/fcambus/spleen
 
+
+## Trivia
+
+- Spleen is the default font for OpenBSD consoles since January 2019
+- Spleen was imported in the NetBSD src tree in March 2019
+
 [1]: https://www.cambus.net/content/2018/09/spleen-hello.png
 [2]: https://www.cambus.net/content/2018/09/spleen-etranger.png
 [3]: https://www.cambus.net/files/spleen/spleen-5x8.png
