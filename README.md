@@ -80,6 +80,8 @@ Packages are available for the following operating systems:
 Clone the repository, convert the files to the Portable Compiled Format
 (PCF) using **bdftopcf** and run **mkfontdir** in the directory.
 
+Alternatively, release tarballs provide PCF files for each size.
+
 ### Mac OS X / macOS
 
 macOS users should use the provided `.dfont` file containing all sizes.
