@@ -17,7 +17,8 @@ Supplement Unicode block), Latin Extended-A characters, as well as Box Drawing,
 Block Elements, and Braille Patterns Unicode blocks, except for the 5x8 version.
 
 Due to character size constraints, the 5x8 version only contains printable
-ASCII characters.
+ASCII characters, the Braille Patterns Unicode block, and light Box Drawing
+characters.
 
 Spleen also has support for Powerline symbols out of the box.
 
