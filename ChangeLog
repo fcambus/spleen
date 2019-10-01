@@ -1,3 +1,19 @@
+Spleen 1.5.0 (2019-10-01)
+
+- Shift the middle bar of the digit '3' one pixel up, for better
+  alignement (12x24 version)
+- Tweak the digit '7' for consistency with other sizes (5x8 version)
+- Make the 'Z', 'z' and derived characters more balanced, as is the
+  case with other sizes  (12x24 version)
+- Tweak the digit '2' for consistency with other sizes (12x24 version)
+- Make the slash inside the digit '0' one pixel thiner (32x64 version)
+- Add light box drawings characters in the 5x8 version
+- Add full support for the Braille Patterns Unicode block in the 5x8 version
+- Add branch, LN, and padlock icons for Powerline users
+- Also provide a fonts.alias file, along with fonts.alias-spleen
+
+
+
 Spleen 1.4.0 (2019-09-24)
 
 - Add left and right single quotation mark characters, both identical to
