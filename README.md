@@ -19,6 +19,8 @@ Block Elements, and Braille Patterns Unicode blocks, except for the 5x8 version.
 Due to character size constraints, the 5x8 version only contains printable
 ASCII characters.
 
+Spleen also has support for Powerline symbols out of the box.
+
 The font name is a reference to Baudelaire.
 
 ## Screenshots
