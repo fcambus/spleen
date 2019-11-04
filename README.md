@@ -84,7 +84,7 @@ Alternatively, release tarballs provide PCF files for each size.
 
 ### Mac OS X / macOS
 
-macOS users should use the provided `.dfont` file containing all sizes.
+macOS users should use the `.dfont` files provided in the release tarballs.
 
 ## Usage
 
