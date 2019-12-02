@@ -1,5 +1,5 @@
 #
-# Spleen 1.5.0
+# Spleen 1.6.0
 # Copyright (c) 2018-2019, Frederic Cambus
 # https://www.cambus.net/
 #
