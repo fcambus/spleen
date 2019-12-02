@@ -1,3 +1,12 @@
+Spleen 1.6.0 (2019-12-02)
+
+- Make it clear that .dfont files are provided in release tarballs
+- Initial SFD version converted from the 8x16 BDF file
+- Add a 'otf' target in the Makefile to generate an OTF version
+- Mention the OTF version in the README, in notes for Windows users
+
+
+
 Spleen 1.5.0 (2019-10-01)
 
 - Shift the middle bar of the digit '3' one pixel up, for better
