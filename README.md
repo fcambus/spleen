@@ -86,6 +86,10 @@ Alternatively, release tarballs provide PCF files for each size.
 
 macOS users should use the `.dfont` files provided in the release tarballs.
 
+### Windows
+
+Windows users should use the `.otf` file provided in the release tarballs.
+
 ## Usage
 
 ### *BSD and Linux
@@ -133,6 +137,11 @@ Use the following sizes:
 - Spleen 12x24: 24 Pt
 - Spleen 16x32: 32 Pt
 - Spleen 32x64: 64 Pt
+
+### Windows
+
+Configure the terminal application to use Spleen in size 12, and make sure
+anti-aliasing is disabled.
 
 ## License
 
