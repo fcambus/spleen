@@ -109,7 +109,7 @@ Update **.Xdefaults** and add one of the following directives:
 Launch **xterm**.
 
 Ubuntu has bitmap fonts support disabled by default, instructions to enable
-it is available [here][14].
+it are available [here][14].
 
 ### Linux console
 
