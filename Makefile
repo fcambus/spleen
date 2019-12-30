@@ -4,7 +4,7 @@
 # https://www.cambus.net/
 #
 # Created:      2019-01-29
-# Last Updated: 2019-12-02
+# Last Updated: 2019-12-30
 #
 # Spleen is released under the BSD 2-Clause license.
 # See LICENSE file for details.
@@ -18,7 +18,11 @@ PREFIX ?=	/usr/local
 DATADIR ?=	$(PREFIX)/share/bdf2psf
 
 EQUIVALENT =	$(DATADIR)/standard.equivalents
-FONTSET =	$(DATADIR)/fontsets/Uni1.512
+
+ASCII =		$(DATADIR)/ascii.set
+LINUX =		$(DATADIR)/linux.set
+USEFUL =	$(DATADIR)/useful.set
+FONTSET =	$(DATADIR)/fontsets/Uni1.512+:$(ASCII)+:$(LINUX)+:$(USEFUL)
 
 OPTIONS =	$(EQUIVALENT) $(FONTSET) 512
 
