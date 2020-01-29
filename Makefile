@@ -110,4 +110,4 @@ specimen:
 	$(OPTIPNG) *.png
 
 clean:
-	rm -f *.bak *.gz *.otf *.pcf *.psfu *.dfont *.png
+	rm -f *.bak *.gz *.sfd *.otf *.pcf *.psfu *.dfont *.png
