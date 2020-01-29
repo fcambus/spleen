@@ -4,7 +4,7 @@
 # https://www.cambus.net/
 #
 # Created:      2019-01-29
-# Last Updated: 2020-01-21
+# Last Updated: 2020-01-29
 #
 # Spleen is released under the BSD 2-Clause license.
 # See LICENSE file for details.
@@ -13,6 +13,14 @@
 BDFTOPCF ?=	bdftopcf
 BDF2PSF ?=	bdf2psf
 FONTFORGE ?=	fontforge
+OPTIPNG ?=	optipng
+
+PBMTEXT ?=	pbmtext
+PPMCHANGE ?=	ppmchange
+PNMCAT ?=	pnmcat
+PNMPASTE ?=	pnmpaste
+PNMSCALE ?=	pnmscale
+PNMTOPNG ?=	pnmtopng
 
 PREFIX ?=	/usr/local
 DATADIR ?=	$(PREFIX)/share/bdf2psf
@@ -48,48 +56,48 @@ otf:
 screenshots:
 .for size in $(SIZES)
 	awk 'BEGIN { for(chr = 32; chr < 127; chr++) printf "%c", chr }' | \
-	pbmtext -font spleen-${size}.bdf -nomargins | \
-	ppmchange black "#aaa" | \
-	ppmchange white black | \
-	pnmtopng > spleen-${size}.png
+	$(PBMTEXT) -font spleen-${size}.bdf -nomargins | \
+	$(PPMCHANGE) black "#aaa" | \
+	$(PPMCHANGE) white black | \
+	$(PNMTOPNG) > spleen-${size}.png
 .endfor
-	optipng *.png
+	$(OPTIPNG) *.png
 
 specimen:
 	echo "\n  Spleen         " | \
-	pbmtext -font spleen-32x64.bdf -nomargins | \
-	ppmchange white "#ff7f2a" | \
-	ppmchange black "#fff" > spleen.pnm
+	$(PBMTEXT) -font spleen-32x64.bdf -nomargins | \
+	$(PPMCHANGE) white "#ff7f2a" | \
+	$(PPMCHANGE) black "#fff" > spleen.pnm
 
 	echo "\n  Aa Ee Gg       \n  Qq Rr Ss" | \
-	pbmtext -font spleen-32x64.bdf -nomargins | \
-	ppmchange white "#ff7f2a" > examples.pnm
+	$(PBMTEXT) -font spleen-32x64.bdf -nomargins | \
+	$(PPMCHANGE) white "#ff7f2a" > examples.pnm
 
 	echo "\n     The future  " | \
-	pbmtext -font spleen-32x64.bdf -nomargins | \
-	ppmchange white "#ff7f2a" | \
-	ppmchange black "#fff" > future.pnm
+	$(PBMTEXT) -font spleen-32x64.bdf -nomargins | \
+	$(PPMCHANGE) white "#ff7f2a" | \
+	$(PPMCHANGE) black "#fff" > future.pnm
 
 	echo "  abcdefghijklm  \n  nopqrstuvwxyz" | \
-	pbmtext -font spleen-32x64.bdf -nomargins | \
-	ppmchange white "#ff2a7f" > letters.pnm
+	$(PBMTEXT) -font spleen-32x64.bdf -nomargins | \
+	$(PPMCHANGE) white "#ff2a7f" > letters.pnm
 
 	echo "     0123456789  " | \
-	pbmtext -font spleen-32x64.bdf -nomargins | \
-	ppmchange white "#ff2a7f" | \
-	ppmchange black "#fff"  > digits.pnm
+	$(PBMTEXT) -font spleen-32x64.bdf -nomargins | \
+	$(PPMCHANGE) white "#ff2a7f" | \
+	$(PPMCHANGE) black "#fff"  > digits.pnm
 
-	pnmcat -tb spleen.pnm examples.pnm future.pnm letters.pnm digits.pnm > specimen.pnm
+	$(PNMCAT) -tb spleen.pnm examples.pnm future.pnm letters.pnm digits.pnm > specimen.pnm
 
 	echo "a" | \
-	pbmtext -font spleen-32x64.bdf -nomargins | \
-	ppmchange white "#ff7f2a" | \
-	ppmchange black "#fff" | \
-	pnmscale 4 | \
-	pnmpaste - 364 100 specimen.pnm | \
-	pnmtopng > specimen.png
+	$(PBMTEXT) -font spleen-32x64.bdf -nomargins | \
+	$(PPMCHANGE) white "#ff7f2a" | \
+	$(PPMCHANGE) black "#fff" | \
+	$(PNMSCALE) 4 | \
+	$(PNMPASTE) - 364 100 specimen.pnm | \
+	$(PNMTOPNG) > specimen.png
 	rm *.pnm
-	optipng *.png
+	$(OPTIPNG) *.png
 
 clean:
 	rm -f *.bak *.gz *.otf *.pcf *.psfu *.dfont *.png
