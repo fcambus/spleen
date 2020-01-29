@@ -11,6 +11,7 @@
 #
 
 BDFTOPCF ?=	bdftopcf
+BDFTOSFD ?=	bdftosfd
 BDF2PSF ?=	bdf2psf
 FONTFORGE ?=	fontforge
 OPTIPNG ?=	optipng
@@ -35,6 +36,7 @@ FONTSET =	$(DATADIR)/fontsets/Uni1.512+:$(ASCII)+:$(LINUX)+:$(USEFUL)
 OPTIONS =	$(EQUIVALENT) $(FONTSET) 512
 
 SIZES =		5x8 8x16 12x24 16x32 32x64
+OTFSIZES =	8x16 16x32 32x64
 
 TARGET =	all
 
@@ -48,6 +50,11 @@ pcf:
 psf:
 .for size in $(SIZES)
 	$(BDF2PSF) --fb spleen-${size}.bdf $(OPTIONS) spleen-${size}.psfu
+.endfor
+
+sfd:
+.for size in $(OTFSIZES)
+	$(BDFTOSFD) spleen-${size}.bdf > spleen-${size}.sfd
 .endfor
 
 otf:
