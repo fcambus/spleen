@@ -5,7 +5,7 @@ COMMENT  * Copyright (c) 2018-2020, Frederic Cambus
 COMMENT  * https://www.cambus.net/
 COMMENT  *
 COMMENT  * Created:      2018-08-08
-COMMENT  * Last Updated: 2020-01-21
+COMMENT  * Last Updated: 2020-01-29
 COMMENT  *
 COMMENT  * Spleen is released under the BSD 2-Clause license.
 COMMENT  * See LICENSE file for details.
@@ -13,7 +13,7 @@ COMMENT  */
 FONT -misc-spleen-medium-r-normal--8-80-72-72-C-50-iso10646-1
 SIZE 8 72 72
 FONTBOUNDINGBOX 5 8 0 -1
-STARTPROPERTIES 18
+STARTPROPERTIES 19
 FAMILY_NAME "Spleen"
 FONT_VERSION "1.6.0"
 FOUNDRY "misc"
