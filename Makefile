@@ -59,7 +59,9 @@ sfd:
 .endfor
 
 otf:
-	$(FONTFORGE) -lang ff -c 'Open("spleen.sfd"); Generate("spleen.otf")'
+.for size in $(OTFSIZES)
+	$(FONTFORGE) -lang ff -c 'Open("spleen-${size}.sfd"); Generate("spleen-${size}.otf")'
+.endfor
 
 screenshots:
 .for size in $(SIZES)
