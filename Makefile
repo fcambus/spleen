@@ -54,7 +54,7 @@ psf:
 
 sfd:
 .for size in $(OTFSIZES)
-	$(BDFTOSFD) spleen-${size}.bdf > spleen-${size}.sfd
+	$(BDFTOSFD) -f "Spleen ${size}" spleen-${size}.bdf > spleen-${size}.sfd
 	$(FONTFORGE) -lang ff -c 'Open("spleen-${size}.sfd"); SelectAll(); RemoveOverlap(); Simplify(-1, 1); Save("spleen-${size}.sfd")'
 .endfor
 
