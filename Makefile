@@ -40,7 +40,7 @@ OTFSIZES =	8x16 12x24 16x32 32x64
 
 TARGET =	all
 
-all:	pcf psf
+all:	pcf psf sfd otf
 
 pcf:
 .for size in $(SIZES)
