@@ -4,15 +4,15 @@
 # https://www.cambus.net/
 #
 # Created:      2019-01-29
-# Last Updated: 2020-01-29
+# Last Updated: 2020-02-06
 #
 # Spleen is released under the BSD 2-Clause license.
 # See LICENSE file for details.
 #
 
 BDFTOPCF ?=	bdftopcf
-BDFTOSFD ?=	bdftosfd
 BDF2PSF ?=	bdf2psf
+BDF2SFD ?=	bdf2sfd
 FONTFORGE ?=	fontforge
 OPTIPNG ?=	optipng
 
@@ -54,7 +54,7 @@ psf:
 
 sfd:
 .for size in $(OTFSIZES)
-	$(BDFTOSFD) -f "Spleen ${size}" spleen-${size}.bdf > spleen-${size}.sfd
+	$(BDF2SFD) -f "Spleen ${size}" spleen-${size}.bdf > spleen-${size}.sfd
 	$(FONTFORGE) -lang ff -c 'Open("spleen-${size}.sfd"); SelectAll(); RemoveOverlap(); Simplify(-1, 1); Save("spleen-${size}.sfd")'
 .endfor
 
