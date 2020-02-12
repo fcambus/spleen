@@ -72,6 +72,8 @@ Packages are available for the following operating systems:
 - [Arch Linux][11]
 - [Void Linux][12]
 - [Nix][13]
+- [Debian][14]
+- [Ubuntu][15]
 
 ## Manual installation
 
@@ -109,7 +111,7 @@ Update **.Xdefaults** and add one of the following directives:
 Launch **xterm**.
 
 Ubuntu has bitmap fonts support disabled by default, instructions to enable
-it are available [here][14].
+it are available [here][16].
 
 ### Linux console
 
@@ -177,4 +179,6 @@ GitHub: https://github.com/fcambus/spleen
 [11]: https://aur.archlinux.org/packages/bdf-spleen/
 [12]: https://github.com/void-linux/void-packages/tree/master/srcpkgs/font-spleen
 [13]: https://github.com/NixOS/nixpkgs/tree/master/pkgs/data/fonts/spleen
-[14]: https://wiki.ubuntu.com/Fonts#Enabling_Bitmapped_Fonts
+[14]: https://packages.debian.org/search?keywords=spleen
+[15]: https://packages.ubuntu.com/search?keywords=spleen
+[16]: https://wiki.ubuntu.com/Fonts#Enabling_Bitmapped_Fonts
