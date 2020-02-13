@@ -1,3 +1,14 @@
+Spleen 1.7.0 (2020-02-13)
+
+- Improve generated PSF files so that box-drawing characters are correctly
+  displayed
+- Add the FONT_VERSION XFLD property for all BDF sizes
+- Generate OpenType (OTF) versions for the 8x16, 12x24, 16x32 and 32x64 sizes
+- Stop generating .dfont files, OTF versions should be used instead
+- Add links to Debian and Ubuntu packages.
+
+
+
 Spleen 1.6.0 (2019-12-02)
 
 - Make it clear that .dfont files are provided in release tarballs
