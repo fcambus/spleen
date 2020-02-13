@@ -10,7 +10,8 @@ Spleen is a monospaced bitmap font available in 5 sizes:
 
 Each size is provided in the Glyph Bitmap Distribution Format (BDF), and
 release tarballs contain the fonts in the following formats: `PCF`, `PSF`
-(for the Linux console), and `.dfont` for Macintosh users.
+(for the Linux console), and `OTF`.
+
 
 All font sizes contain all ISO/IEC 8859-1 characters (Basic Latin and Latin-1
 Supplement Unicode block), Latin Extended-A characters, as well as Box Drawing,
@@ -18,7 +19,7 @@ Block Elements, and Braille Patterns Unicode blocks, except for the 5x8 version.
 
 Due to character size constraints, the 5x8 version only contains printable
 ASCII characters, the Braille Patterns Unicode block, and light Box Drawing
-characters.
+characters. Please also note that there is no OpenType version for this size.
 
 Spleen also has support for Powerline symbols out of the box.
 
@@ -86,11 +87,13 @@ Alternatively, release tarballs provide PCF files for each size.
 
 ### Mac OS X / macOS
 
-macOS users should use the `.dfont` files provided in the release tarballs.
+macOS users should use the `.otf` files provided in the release tarballs.
+
+Since version 1.7.0, `.dfont` files are not generated anymore.
 
 ### Windows
 
-Windows users should use the `.otf` file provided in the release tarballs.
+Windows users should use the `.otf` files provided in the release tarballs.
 
 ## Usage
 
@@ -126,19 +129,6 @@ vidcontrol(1).
 For example, to load Spleen 16x32:
 
 	vidcontrol -f /usr/local/share/fonts/spleen/spleen-16x32.fnt
-
-### Mac OS X / macOS
-
-Configure the terminal application to use Spleen, and make sure anti-aliasing
-is disabled.
-
-Use the following sizes:
-
-- Spleen 5x8: 8 Pt
-- Spleen 8x16: 16 Pt
-- Spleen 12x24: 24 Pt
-- Spleen 16x32: 32 Pt
-- Spleen 32x64: 64 Pt
 
 ### OpenType versions
 
