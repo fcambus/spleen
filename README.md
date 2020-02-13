@@ -140,10 +140,19 @@ Use the following sizes:
 - Spleen 16x32: 32 Pt
 - Spleen 32x64: 64 Pt
 
-### Windows
+### OpenType versions
 
-Configure the terminal application to use Spleen in size 12, and make sure
-anti-aliasing is disabled.
+Spleen release tarballs now contains OTF versions generated automatically
+from the BDF files, using [bdf2sfd][17]. Each font has a different name,
+allowing them to be installed alongside.
+
+They should be used in the exact size specified below, with anti-aliasing
+disabled.
+
+- Spleen 8x16: 12 Pt (16 pixels)
+- Spleen 12x24: 18 Pt (24 pixels)
+- Spleen 16x32: 24 Pt (32 pixels)
+- Spleen 32x64: 48 Pt (64 pixels)
 
 ## License
 
@@ -182,3 +191,4 @@ GitHub: https://github.com/fcambus/spleen
 [14]: https://packages.debian.org/search?keywords=spleen
 [15]: https://packages.ubuntu.com/search?keywords=spleen
 [16]: https://wiki.ubuntu.com/Fonts#Enabling_Bitmapped_Fonts
+[17]: https://github.com/fcambus/bdf2sfd
