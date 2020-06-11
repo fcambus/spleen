@@ -173,7 +173,7 @@ GitHub: https://github.com/fcambus/spleen
 [6]: https://www.cambus.net/files/spleen/spleen-16x32.png
 [7]: https://www.cambus.net/files/spleen/spleen-32x64.png
 [8]: https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/fonts/spleen/
-[9]: http://pkgsrc.se/fonts/spleen
+[9]: https://pkgsrc.se/fonts/spleen
 [10]: https://www.freshports.org/x11-fonts/spleen/
 [11]: https://aur.archlinux.org/packages/bdf-spleen/
 [12]: https://github.com/void-linux/void-packages/tree/master/srcpkgs/font-spleen
