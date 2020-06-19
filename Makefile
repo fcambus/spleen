@@ -4,7 +4,7 @@
 # https://www.cambus.net/
 #
 # Created:      2019-01-29
-# Last Updated: 2020-06-13
+# Last Updated: 2020-06-20
 #
 # Spleen is released under the BSD 2-Clause license.
 # See LICENSE file for details.
@@ -35,8 +35,8 @@ FONTSET =	$(DATADIR)/fontsets/Uni1.512+:$(ASCII)+:$(LINUX)+:$(USEFUL)
 
 OPTIONS =	$(EQUIVALENT) $(FONTSET) 512
 
-SIZES =		5x8 8x16 12x24 16x32 32x64
-OTFSIZES =	8x16 12x24 16x32 32x64
+SIZES =		5x8 6x12 8x16 12x24 16x32 32x64
+OTFSIZES =	6x12 8x16 12x24 16x32 32x64
 
 TARGET =	all
 
