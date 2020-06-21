@@ -1,3 +1,16 @@
+Spleen 1.7.1 (2020-06-21)
+
+- Add some Powerline characters (arrows symbols and padlock) (5x8 version)
+- Fix duplicate character names for Powerline symbols
+- Uppercase ISO in the FONT property so fonts can be processed through
+  ucs2any(1)
+- Add "Black Diamond" and "Lozenge" characters for all sizes
+- Add "Black Heart Suit" and "Black Diamond Suit" characters for all sizes
+- Remove strain pixel on the '5' digit (5x8 version)
+- Improve the Esszet character (8x16, 12x24, 16x32, and 32x64 versions)
+
+
+
 Spleen 1.7.0 (2020-02-13)
 
 - Improve generated PSF files so that box-drawing characters are correctly
