@@ -1,11 +1,11 @@
 STARTFONT 2.1
 COMMENT /*
-COMMENT  * Spleen 8x16 1.7.0
+COMMENT  * Spleen 8x16 1.7.1
 COMMENT  * Copyright (c) 2018-2020, Frederic Cambus
 COMMENT  * https://www.cambus.net/
 COMMENT  *
 COMMENT  * Created:      2018-08-11
-COMMENT  * Last Updated: 2020-06-13
+COMMENT  * Last Updated: 2020-06-21
 COMMENT  *
 COMMENT  * Spleen is released under the BSD 2-Clause license.
 COMMENT  * See LICENSE file for details.
@@ -15,7 +15,7 @@ SIZE 16 72 72
 FONTBOUNDINGBOX 8 16 0 -4
 STARTPROPERTIES 19
 FAMILY_NAME "Spleen"
-FONT_VERSION "1.7.0"
+FONT_VERSION "1.7.1"
 FOUNDRY "misc"
 SLANT "R"
 SETWIDTH_NAME "Normal"
@@ -3704,11 +3704,11 @@ BITMAP
 CC
 CC
 CC
-F8
+D8
 CC
 C6
 C6
-E6
+D6
 DC
 00
 00
