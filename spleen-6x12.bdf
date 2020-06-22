@@ -1,11 +1,11 @@
 STARTFONT 2.1
 COMMENT /*
-COMMENT  * Spleen 6x12 1.7.0
+COMMENT  * Spleen 6x12 1.7.1
 COMMENT  * Copyright (c) 2018-2020, Frederic Cambus
 COMMENT  * https://www.cambus.net/
 COMMENT  *
 COMMENT  * Created:      2020-04-08
-COMMENT  * Last Updated: 2020-06-19
+COMMENT  * Last Updated: 2020-06-22
 COMMENT  *
 COMMENT  * Spleen is released under the BSD 2-Clause license.
 COMMENT  * See LICENSE file for details.
@@ -61,7 +61,7 @@ DWIDTH 6 0
 BBX 6 12 0 -3
 BITMAP
 00
-00
+20
 20
 20
 20
@@ -631,14 +631,14 @@ DWIDTH 6 0
 BBX 6 12 0 -3
 BITMAP
 00
-00
-60
-90
+70
+88
+08
 10
 20
-40
+20
 00
-40
+20
 00
 00
 00
