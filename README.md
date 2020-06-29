@@ -1,8 +1,9 @@
 # Spleen
 
-Spleen is a monospaced bitmap font available in 5 sizes:
+Spleen is a monospaced bitmap font available in 6 sizes:
 
 - 5x8
+- 6x12
 - 8x16
 - 12x24
 - 16x32
@@ -15,11 +16,15 @@ release tarballs contain the fonts in the following formats: `PCF`, `PSF`
 
 All font sizes contain all ISO/IEC 8859-1 characters (Basic Latin and Latin-1
 Supplement Unicode block), Latin Extended-A characters, as well as Box Drawing,
-Block Elements, and Braille Patterns Unicode blocks, except for the 5x8 version.
+Block Elements, and Braille Patterns Unicode blocks, except for the 5x8 and the
+6x12 versions.
 
 Due to character size constraints, the 5x8 version only contains printable
 ASCII characters, the Braille Patterns Unicode block, and light Box Drawing
 characters. Please also note that there is no OpenType version for this size.
+
+As of Spleen 1.8.0, there is now a 6x12 version containing the same Unicode
+blocks as the 5x8 version.
 
 Spleen also has support for Powerline symbols out of the box.
 
@@ -39,24 +44,29 @@ Spleen 5x8:
 
 ![Spleen - ASCII characters - 5x8][3]
 
+Spleen 6x12:
+
+![Spleen - ASCII characters - 6x12][4]
+
 Spleen 8x16:
 
-![Spleen - ASCII characters - 8x16][4]
+![Spleen - ASCII characters - 8x16][5]
 
 Spleen 12x24:
 
-![Spleen - ASCII characters - 12x24][5]
+![Spleen - ASCII characters - 12x24][6]
 
 Spleen 16x32:
-![Spleen - ASCII characters - 16x32][6]
+![Spleen - ASCII characters - 16x32][7]
 
 Spleen 32x64:
-![Spleen - ASCII characters - 32x64][7]
+![Spleen - ASCII characters - 32x64][8]
 
 ## XLFD font names
 
 ```
 -misc-spleen-medium-r-normal--8-80-72-72-c-50-iso10646-1
+-misc-spleen-medium-r-normal--12-120-72-72-c-60-iso10646-1
 -misc-spleen-medium-r-normal--16-160-72-72-c-80-iso10646-1
 -misc-spleen-medium-r-normal--24-240-72-72-c-120-iso10646-1
 -misc-spleen-medium-r-normal--32-320-72-72-c-160-iso10646-1
@@ -67,14 +77,14 @@ Spleen 32x64:
 
 Packages are available for the following operating systems:
 
-- [OpenBSD][8]
-- [NetBSD][9]
-- [FreeBSD][10]
-- [Arch Linux][11]
-- [Void Linux][12]
-- [Nix][13]
-- [Debian][14]
-- [Ubuntu][15]
+- [OpenBSD][9]
+- [NetBSD][10]
+- [FreeBSD][11]
+- [Arch Linux][12]
+- [Void Linux][13]
+- [Nix][14]
+- [Debian][15]
+- [Ubuntu][16]
 
 ## Manual installation
 
@@ -106,6 +116,7 @@ Update the font path to include **Spleen**:
 Update **.Xdefaults** and add one of the following directives:
 
 	xterm*faceName: spleen:pixelsize=8:antialias=false
+	xterm*faceName: spleen:pixelsize=12:antialias=false
 	xterm*faceName: spleen:pixelsize=16:antialias=false
 	xterm*faceName: spleen:pixelsize=24:antialias=false
 	xterm*faceName: spleen:pixelsize=32:antialias=false
@@ -114,7 +125,7 @@ Update **.Xdefaults** and add one of the following directives:
 Launch **xterm**.
 
 Ubuntu has bitmap fonts support disabled by default, instructions to enable
-it are available [here][16].
+it are available [here][17].
 
 ### Linux console
 
@@ -133,12 +144,13 @@ For example, to load Spleen 16x32:
 ### OpenType versions
 
 Spleen release tarballs now contains OTF versions generated automatically
-from the BDF files, using [bdf2sfd][17]. Each font has a different name,
+from the BDF files, using [bdf2sfd][18]. Each font has a different name,
 allowing them to be installed alongside.
 
 They should be used in the exact size specified below, with anti-aliasing
 disabled.
 
+- Spleen 6x12: 9 Pt (12 pixels)
 - Spleen 8x16: 12 Pt (16 pixels)
 - Spleen 12x24: 18 Pt (24 pixels)
 - Spleen 16x32: 24 Pt (32 pixels)
@@ -168,17 +180,18 @@ GitHub: https://github.com/fcambus/spleen
 [1]: https://www.cambus.net/content/2018/09/spleen-hello.png
 [2]: https://www.cambus.net/content/2018/09/spleen-etranger.png
 [3]: https://www.cambus.net/files/spleen/spleen-5x8.png
-[4]: https://www.cambus.net/files/spleen/spleen-8x16.png
-[5]: https://www.cambus.net/files/spleen/spleen-12x24.png
-[6]: https://www.cambus.net/files/spleen/spleen-16x32.png
-[7]: https://www.cambus.net/files/spleen/spleen-32x64.png
-[8]: https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/fonts/spleen/
-[9]: https://pkgsrc.se/fonts/spleen
-[10]: https://www.freshports.org/x11-fonts/spleen/
-[11]: https://aur.archlinux.org/packages/bdf-spleen/
-[12]: https://github.com/void-linux/void-packages/tree/master/srcpkgs/font-spleen
-[13]: https://github.com/NixOS/nixpkgs/tree/master/pkgs/data/fonts/spleen
-[14]: https://packages.debian.org/search?keywords=spleen
-[15]: https://packages.ubuntu.com/search?keywords=spleen
-[16]: https://wiki.ubuntu.com/Fonts#Enabling_Bitmapped_Fonts
-[17]: https://github.com/fcambus/bdf2sfd
+[4]: https://www.cambus.net/files/spleen/spleen-5x8.png
+[5]: https://www.cambus.net/files/spleen/spleen-8x16.png
+[6]: https://www.cambus.net/files/spleen/spleen-12x24.png
+[7]: https://www.cambus.net/files/spleen/spleen-16x32.png
+[8]: https://www.cambus.net/files/spleen/spleen-32x64.png
+[9]: https://cvsweb.openbsd.org/cgi-bin/cvsweb/ports/fonts/spleen/
+[10]: https://pkgsrc.se/fonts/spleen
+[11]: https://www.freshports.org/x11-fonts/spleen/
+[12]: https://aur.archlinux.org/packages/bdf-spleen/
+[13]: https://github.com/void-linux/void-packages/tree/master/srcpkgs/font-spleen
+[14]: https://github.com/NixOS/nixpkgs/tree/master/pkgs/data/fonts/spleen
+[15]: https://packages.debian.org/search?keywords=spleen
+[16]: https://packages.ubuntu.com/search?keywords=spleen
+[17]: https://wiki.ubuntu.com/Fonts#Enabling_Bitmapped_Fonts
+[18]: https://github.com/fcambus/bdf2sfd
