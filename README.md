@@ -132,6 +132,15 @@ it are available [here][17].
 Release tarballs provide PSF files for each size, `setfont` can be used
 to load and set the desired font.
 
+### NetBSD console
+
+NetBSD has .fnt files for each size which can be loaded using wsfontload(8).
+
+For example, to load Spleen 16x32:
+
+	wsfontload -N spleen-16x32 -w 16 -h 32 /usr/share/wscons/fonts/spleen-16x32.fnt
+	wsconsctl -dw font=spleen-16x32
+
 ### FreeBSD console
 
 The FreeBSD package contains .fnt files which can be loaded using
