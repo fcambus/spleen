@@ -180,7 +180,7 @@ GitHub: https://github.com/fcambus/spleen
 [1]: https://www.cambus.net/content/2018/09/spleen-hello.png
 [2]: https://www.cambus.net/content/2018/09/spleen-etranger.png
 [3]: https://www.cambus.net/files/spleen/spleen-5x8.png
-[4]: https://www.cambus.net/files/spleen/spleen-5x8.png
+[4]: https://www.cambus.net/files/spleen/spleen-6x12.png
 [5]: https://www.cambus.net/files/spleen/spleen-8x16.png
 [6]: https://www.cambus.net/files/spleen/spleen-12x24.png
 [7]: https://www.cambus.net/files/spleen/spleen-16x32.png
