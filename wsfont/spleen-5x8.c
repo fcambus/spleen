@@ -4,7 +4,7 @@
  * https://www.cambus.net/
  *
  * Created:      2020-06-20
- * Last Updated: 2020-06-20
+ * Last Updated: 2020-07-08
  *
  * Spleen is released under the BSD 2-Clause license.
  * See LICENSE file for details.
@@ -16,7 +16,9 @@
 #include <dev/wscons/wsconsio.h>
 #include <dev/wsfont/spleen5x8.h>
 
-int main() {
+int
+main(int argc, char *argv[])
+{
 	size_t loop;
 
 	for (loop = 0; loop < 32 * 8; loop++)
