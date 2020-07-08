@@ -4,13 +4,13 @@
 # https://www.cambus.net/
 #
 # Created:      2020-06-20
-# Last Updated: 2020-06-25
+# Last Updated: 2020-07-08
 #
 # Spleen is released under the BSD 2-Clause license.
 # See LICENSE file for details.
 #
 
-SIZES =		5x8 8x16 12x24 16x32 32x64
+SIZES =		5x8 6x12 8x16 12x24 16x32 32x64
 
 all:
 .for size in $(SIZES)
