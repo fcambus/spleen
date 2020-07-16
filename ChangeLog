@@ -1,3 +1,25 @@
+Spleen 1.8.1 (2020-07-16)
+
+- Center tilde vertically for all sizes, as modern fonts do
+- Add black triangles in the 25E2-25E5 range
+- Add single angle quotation mark characters
+- Add white and black circle characters
+- Add inverse bullet and inverse white circle characters
+- Add 'A', 'a', 'O', 'o', 'U', 'u' characters with caron
+- Add 'I', 'i', 'G', 'g', 'j' characters with caron
+- Add 'H', 'h', 'K', 'k', characters with caron
+- Add 'E' and 'e' characters with cedilla
+- Add 'A', 'a', 'E', 'e', 'I', 'i', 'O', 'o', 'R', 'r', 'U', 'u' with
+  double grave
+- Add "almost equal to" character
+- Add 'G' and 'g' characters with acute accent
+- Add 'O' and 'o' characters with stroke and acute
+- Add double vertical bar and double exclamation mark characters
+- Add stand alone breve, dot above, ogonek, small tilde, and double
+  acute accent
+
+
+
 Spleen 1.8.0 (2020-06-29)
 
 - Add Initial 6x12 version, containing printable ASCII characters, the
