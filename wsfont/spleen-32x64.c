@@ -1,5 +1,5 @@
 /*
- * Spleen 1.8.1
+ * Spleen 1.8.2
  * Copyright (c) 2018-2020, Frederic Cambus
  * https://www.cambus.net/
  *
