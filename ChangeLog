@@ -1,3 +1,21 @@
+Spleen 1.8.2 (2020-07-31)
+
+- Fix size of the lower case 'ae' character in the 16x32 and 32x64 versions
+- Fix size of the lower case 'oe' character in the 16x32 and 32x64 versions
+- Add 'AE' and 'ae' characters with acute accent
+- Add 'AE' and 'ae' characters with macron
+- Add 'A', 'a', 'E', 'e', 'I', 'i', 'O', 'o', 'R', 'r', 'U', 'u' with
+  inverted breve
+- Add 'A', 'a', 'O', 'o' characters with dot above
+- Add 'O' and 'o' characters with ogonek
+- Add 'O' and 'o' characters with ogonek and macron
+- Shorten parentheses, square brackets, braces, slash, backslash in the
+  8x16 version, fixing alignment issues
+- Shift vertical line and double vertical line characters one pixel
+  up (8x16 version)
+
+
+
 Spleen 1.8.1 (2020-07-16)
 
 - Center tilde vertically for all sizes, as modern fonts do
