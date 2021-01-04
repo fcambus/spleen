@@ -1,6 +1,6 @@
 #
 # Spleen 1.8.2
-# Copyright (c) 2018-2020, Frederic Cambus
+# Copyright (c) 2018-2021, Frederic Cambus
 # https://www.cambus.net/
 #
 # Created:      2019-01-29
