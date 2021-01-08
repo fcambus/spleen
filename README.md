@@ -95,7 +95,7 @@ Clone the repository, convert the files to the Portable Compiled Format
 
 Alternatively, release tarballs provide PCF files for each size.
 
-### Mac OS X / macOS
+### macOS
 
 macOS users should use the `.otf` files provided in the release tarballs.
 
