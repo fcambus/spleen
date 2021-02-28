@@ -84,7 +84,7 @@ Spleen 1.6.0 (2019-12-02)
 Spleen 1.5.0 (2019-10-01)
 
 - Shift the middle bar of the digit '3' one pixel up, for better
-  alignement (12x24 version)
+  alignment (12x24 version)
 - Tweak the digit '7' for consistency with other sizes (5x8 version)
 - Make the 'Z', 'z' and derived characters more balanced, as is the
   case with other sizes  (12x24 version)
@@ -188,7 +188,7 @@ Spleen 1.0.2 (2018-11-26)
 - Tweak 'f' and 't' characters to make them more consistent (8x16 version)
 - Make the upper case 'K' middle bar shorter, helps differentiating it from
   upper case 'H' (5x8, 12x24, 16x32)
-- Fix alignement of parentheses with square brackets and braces (32x64 version)
+- Fix alignment of parentheses with square brackets and braces (32x64 version)
 - Fix SIZE, MIN_SPACE, and SWIDTH properties for all fonts
 - Make the at sign higher (8x16, 12x24, 16x32, and 32x64 versions)
 - Harmonize angle quotes (8x16, 12x24, 16x32, and 32x64 versions)
