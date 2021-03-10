@@ -5,7 +5,7 @@ COMMENT  * Copyright (c) 2018-2021, Frederic Cambus
 COMMENT  * https://www.cambus.net/
 COMMENT  *
 COMMENT  * Created:      2020-04-08
-COMMENT  * Last Updated: 2021-03-02
+COMMENT  * Last Updated: 2021-03-10
 COMMENT  *
 COMMENT  * Spleen is released under the BSD 2-Clause license.
 COMMENT  * See LICENSE file for details.
@@ -1771,16 +1771,16 @@ SWIDTH 500 0
 DWIDTH 6 0
 BBX 6 12 0 -3
 BITMAP
-00
 18
 20
 20
-60
-60
+20
+C0
+C0
+20
 20
 20
 18
-00
 00
 00
 ENDCHAR
@@ -1790,7 +1790,6 @@ SWIDTH 500 0
 DWIDTH 6 0
 BBX 6 12 0 -3
 BITMAP
-00
 20
 20
 20
@@ -1799,7 +1798,8 @@ BITMAP
 20
 20
 20
-00
+20
+20
 00
 00
 ENDCHAR
@@ -1809,16 +1809,16 @@ SWIDTH 500 0
 DWIDTH 6 0
 BBX 6 12 0 -3
 BITMAP
-00
 60
 10
 10
-18
-18
+10
+0C
+0C
+10
 10
 10
 60
-00
 00
 00
 ENDCHAR
