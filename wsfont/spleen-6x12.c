@@ -4,7 +4,7 @@
  * https://www.cambus.net/
  *
  * Created:      2020-07-08
- * Last Updated: 2020-07-08
+ * Last Updated: 2021-03-12
  *
  * Spleen is released under the BSD 2-Clause license.
  * See LICENSE file for details.
@@ -24,11 +24,8 @@ main(int argc, char *argv[])
 	for (loop = 0; loop < 32 * 12; loop++)
 		printf("%c", 0);
 
-	for (loop = 0; loop < 96 * 12; loop++)
+	for (loop = 0; loop < 224 * 12; loop++)
 		printf("%c", spleen6x12_data[loop]);
-
-	for (loop = 0; loop < 128 * 12; loop++)
-		printf("%c", 0);
 
 	return 0;
 }
