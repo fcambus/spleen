@@ -23,7 +23,7 @@ ASCII characters, the Braille Patterns Unicode block, and light Box Drawing
 characters. Please also note that there is no OpenType version for this size.
 
 As of Spleen 1.8.0, there is now a 6x12 version containing the same Unicode
-blocks as the 5x8 version.
+blocks as the 5x8 version and the Latin-1 Supplement Unicode block.
 
 Spleen also has support for Powerline symbols out of the box.
 
