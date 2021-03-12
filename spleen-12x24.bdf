@@ -1,6 +1,6 @@
 STARTFONT 2.1
 COMMENT /*
-COMMENT  * Spleen 12x24 1.8.2
+COMMENT  * Spleen 12x24 1.9.0
 COMMENT  * Copyright (c) 2018-2021, Frederic Cambus
 COMMENT  * https://www.cambus.net/
 COMMENT  *
@@ -16,7 +16,7 @@ FONTBOUNDINGBOX 12 24 0 -5
 STARTPROPERTIES 20
 FAMILY_NAME "Spleen"
 WEIGHT_NAME "Medium"
-FONT_VERSION "1.8.2"
+FONT_VERSION "1.9.0"
 FOUNDRY "misc"
 SLANT "R"
 SETWIDTH_NAME "Normal"
