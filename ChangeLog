@@ -1,3 +1,12 @@
+Spleen 1.9.0 (2021-03-12)
+
+- Set WEIGHT_NAME property to "Medium" for all sizes
+- Increment STARTPROPERTIES to account for WEIGHT_NAME addition
+- Enlarge vertical line for consistency with other small sizes (5x8 version)
+- Add full support for the Latin-1 Supplement Unicode block (6x12 version)
+
+
+
 Spleen 1.8.2 (2020-07-31)
 
 - Fix size of the lower case 'ae' character in the 16x32 and 32x64 versions
