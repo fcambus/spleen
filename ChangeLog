@@ -1,3 +1,16 @@
+Spleen 1.9.1 (2021-06-13)
+
+- Tweak wsfont export program to account for the new block in the 6x12 version
+- Mention that Haiku now uses Spleen 12x24 in the trivia section
+- Fix paths to wsfont generators
+- Add an 'otb' target to generate OTB files for all sizes using fonttosfnt
+- Also remove generated .otb files in the 'clean' target
+- Generate .dfont files again in release tarballs
+- Generate OTB versions in release tarballs
+- Also remove generated .dfont files in the 'clean' target
+
+
+
 Spleen 1.9.0 (2021-03-12)
 
 - Set WEIGHT_NAME property to "Medium" for all sizes
