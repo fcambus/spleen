@@ -9,6 +9,8 @@
 # Spleen is released under the BSD 2-Clause license.
 # See LICENSE file for details.
 #
+# SPDX-License-Identifier: BSD-2-Clause
+#
 
 SIZES =		5x8 6x12 8x16 12x24 16x32 32x64
 
