@@ -99,6 +99,7 @@ Packages are available for the following operating systems:
 - [Nix][14]
 - [Debian][15]
 - [Ubuntu][16]
+- [MacPorts][17]
 
 ## Manual installation
 
@@ -137,7 +138,7 @@ Update **.Xdefaults** and add one of the following directives:
 Launch **xterm**.
 
 Ubuntu has bitmap fonts support disabled by default, instructions to enable
-it are available [here][17].
+it are available [here][18].
 
 ### Linux console
 
@@ -165,7 +166,7 @@ For example, to load Spleen 16x32:
 ### OpenType versions
 
 Spleen release tarballs now contains OTF versions generated automatically
-from the BDF files, using [bdf2sfd][18]. Each font has a different name,
+from the BDF files, using [bdf2sfd][19]. Each font has a different name,
 allowing them to be installed alongside.
 
 They should be used in the exact size specified below, with anti-aliasing
@@ -197,7 +198,7 @@ GitHub: https://github.com/fcambus/spleen
 
 - Spleen is the default font for OpenBSD consoles since January 2019
 - Spleen was imported in the NetBSD src tree in March 2019
-- Spleen 12x24 was used in the Haiku [kernel debugger][19] (on high resolution
+- Spleen 12x24 was used in the Haiku [kernel debugger][20] (on high resolution
   displays) from May 2021 to June 2022
 
 [1]: https://www.cambus.net/content/2018/09/spleen-hello.png
@@ -216,6 +217,7 @@ GitHub: https://github.com/fcambus/spleen
 [14]: https://github.com/NixOS/nixpkgs/tree/master/pkgs/data/fonts/spleen
 [15]: https://packages.debian.org/search?keywords=spleen
 [16]: https://packages.ubuntu.com/search?keywords=spleen
-[17]: https://wiki.ubuntu.com/Fonts#Enabling_Bitmapped_Fonts
-[18]: https://github.com/fcambus/bdf2sfd
-[19]: https://git.haiku-os.org/haiku/commit/?id=29a109bd6c01ce71bb61177ee9ff0417e74c1e18
+[17]: https://ports.macports.org/port/font-spleen/
+[18]: https://wiki.ubuntu.com/Fonts#Enabling_Bitmapped_Fonts
+[19]: https://github.com/fcambus/bdf2sfd
+[20]: https://git.haiku-os.org/haiku/commit/?id=29a109bd6c01ce71bb61177ee9ff0417e74c1e18
