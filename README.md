@@ -197,8 +197,8 @@ GitHub: https://github.com/fcambus/spleen
 
 - Spleen is the default font for OpenBSD consoles since January 2019
 - Spleen was imported in the NetBSD src tree in March 2019
-- Spleen 12x24 is used in the Haiku [kernel debugger][19] (on high resolution
-  displays) since May 2021
+- Spleen 12x24 was used in the Haiku [kernel debugger][19] (on high resolution
+  displays) from May 2021 to June 2022
 
 [1]: https://www.cambus.net/content/2018/09/spleen-hello.png
 [2]: https://www.cambus.net/content/2018/09/spleen-etranger.png
