@@ -82,32 +82,32 @@ screenshots:
 	$(OPTIPNG) *.png
 
 specimen:
-	echo "\n  Spleen         " | \
+	printf "\n  Spleen         " | \
 	$(PBMTEXT) -font spleen-32x64.bdf -nomargins | \
 	$(PPMCHANGE) white "#ff7f2a" | \
 	$(PPMCHANGE) black "#fff" > spleen.pnm
 
-	echo "\n  Aa Ee Gg       \n  Qq Rr Ss" | \
+	printf "\n  Aa Ee Gg       \n  Qq Rr Ss" | \
 	$(PBMTEXT) -font spleen-32x64.bdf -nomargins | \
 	$(PPMCHANGE) white "#ff7f2a" > examples.pnm
 
-	echo "\n     The future  " | \
+	printf "\n     The future  " | \
 	$(PBMTEXT) -font spleen-32x64.bdf -nomargins | \
 	$(PPMCHANGE) white "#ff7f2a" | \
 	$(PPMCHANGE) black "#fff" > future.pnm
 
-	echo "  abcdefghijklm  \n  nopqrstuvwxyz" | \
+	printf "  abcdefghijklm  \n  nopqrstuvwxyz" | \
 	$(PBMTEXT) -font spleen-32x64.bdf -nomargins | \
 	$(PPMCHANGE) white "#ff2a7f" > letters.pnm
 
-	echo "     0123456789  " | \
+	printf "     0123456789  " | \
 	$(PBMTEXT) -font spleen-32x64.bdf -nomargins | \
 	$(PPMCHANGE) white "#ff2a7f" | \
 	$(PPMCHANGE) black "#fff"  > digits.pnm
 
 	$(PNMCAT) -tb spleen.pnm examples.pnm future.pnm letters.pnm digits.pnm > specimen.pnm
 
-	echo "a" | \
+	printf "a" | \
 	$(PBMTEXT) -font spleen-32x64.bdf -nomargins | \
 	$(PPMCHANGE) white "#ff7f2a" | \
 	$(PPMCHANGE) black "#fff" | \
