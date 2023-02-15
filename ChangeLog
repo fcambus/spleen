@@ -1,3 +1,16 @@
+Spleen 1.9.2 (2023-02-15)
+
+- Add Spleen ASCii logo header (Thanks H7!)
+- Add SPDX short license identifier in sources and fonts
+- Fix link to the Spleen package in AUR
+- Use printf instead of echo for *BSD and Linux cross-compatibility
+- Generate a specimen file for Spleen and include it in the repository
+- Adjust trivias: the Haiku kernel debugger doesn't use Spleen anymore
+- Update README to add a link to the MacPorts package
+- Point the OpenBSD package link to openports.pl
+
+
+
 Spleen 1.9.1 (2021-06-13)
 
 - Tweak wsfont export program to account for the new block in the 6x12 version
