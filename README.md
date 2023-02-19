@@ -201,6 +201,8 @@ GitHub: https://github.com/fcambus/spleen
 - Spleen 12x24 was used in the Haiku [kernel debugger][20] (on high resolution
   displays) from May 2021 to June 2022
 - [msTERM][21], a Terminal program for MailStation devices uses Spleen 5x8
+- [FBInk][22], a library to print text & images to an eInk Linux framebuffer
+  embeds Spleen 16x32
 
 [1]: https://www.cambus.net/content/2018/09/spleen-hello.png
 [2]: https://www.cambus.net/content/2018/09/spleen-etranger.png
@@ -223,3 +225,4 @@ GitHub: https://github.com/fcambus/spleen
 [19]: https://github.com/fcambus/bdf2sfd
 [20]: https://git.haiku-os.org/haiku/commit/?id=29a109bd6c01ce71bb61177ee9ff0417e74c1e18
 [21]: https://github.com/jcs/msTERM
+[22]: https://github.com/NiLuJe/FBInk
