@@ -89,7 +89,7 @@ Spleen 32x64:
 
 ## Packages
 
-Packages are available for the following operating systems:
+Spleen packages are available for:
 
 - [OpenBSD][9]
 - [NetBSD][10]
