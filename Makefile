@@ -4,7 +4,7 @@
 # https://www.cambus.net/
 #
 # Created:      2019-01-29
-# Last Updated: 2021-06-11
+# Last Updated: 2023-04-05
 #
 # Spleen is released under the BSD 2-Clause license.
 # See LICENSE file for details.
@@ -53,6 +53,11 @@ pcf:
 psf:
 .for size in $(SIZES)
 	$(BDF2PSF) --fb spleen-${size}.bdf $(OPTIONS) spleen-${size}.psfu
+.endfor
+
+fon:
+.for size in $(SIZES)
+	$(FONTFORGE) -lang ff -c 'Open("spleen-${size}.bdf"); Generate("spleen-${size}.fon")'
 .endfor
 
 otb:
