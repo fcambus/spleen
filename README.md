@@ -116,7 +116,8 @@ macOS users should use the `.dfont` files provided in the release tarballs.
 
 ### Windows
 
-Windows users should use the `.otf` files provided in the release tarballs.
+Windows users should use the `.fon` or `.otf` files provided in the release
+tarballs.
 
 ## Usage
 
