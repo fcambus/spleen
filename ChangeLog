@@ -1,3 +1,10 @@
+Spleen 1.9.3 (2023-04-07)
+
+- Add a 'fon' target to generate FON files for all sizes using FontForge
+- Mention the FON version in the README, in notes for Windows users
+
+
+
 Spleen 1.9.2 (2023-02-15)
 
 - Add Spleen ASCii logo header (Thanks H7!)
