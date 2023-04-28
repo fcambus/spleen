@@ -193,17 +193,20 @@ Spleen is developed by Frederic Cambus.
 
 ## Resources
 
-GitHub: https://github.com/fcambus/spleen
+- [Spleen - Monospaced bitmap fonts][20] (2018)
+- [New console font Spleen made default][21] (2019)
+- [NetBSD, CTWM, and Spleen][22] (2021)
 
+GitHub: https://github.com/fcambus/spleen
 
 ## Trivia
 
 - Spleen is the default font for OpenBSD consoles since January 2019
 - Spleen was imported in the NetBSD src tree in March 2019
-- Spleen 12x24 was used in the Haiku [kernel debugger][20] (on high resolution
+- Spleen 12x24 was used in the Haiku [kernel debugger][23] (on high resolution
   displays) from May 2021 to June 2022
-- [msTERM][21], a Terminal program for MailStation devices uses Spleen 5x8
-- [FBInk][22], a library to print text & images to an eInk Linux framebuffer
+- [msTERM][24], a Terminal program for MailStation devices uses Spleen 5x8
+- [FBInk][25], a library to print text & images to an eInk Linux framebuffer
   embeds Spleen 16x32
 
 [1]: https://www.cambus.net/content/2018/09/spleen-hello.png
@@ -225,6 +228,9 @@ GitHub: https://github.com/fcambus/spleen
 [17]: https://ports.macports.org/port/font-spleen/
 [18]: https://wiki.ubuntu.com/Fonts#Enabling_Bitmapped_Fonts
 [19]: https://github.com/fcambus/bdf2sfd
-[20]: https://git.haiku-os.org/haiku/commit/?id=29a109bd6c01ce71bb61177ee9ff0417e74c1e18
-[21]: https://github.com/jcs/msTERM
-[22]: https://github.com/NiLuJe/FBInk
+[20]: https://www.cambus.net/spleen-monospaced-bitmap-fonts/
+[21]: https://undeadly.org/cgi?action=article;sid=20190110064857
+[22]: https://www.cambus.net/netbsd-ctwm-and-spleen/
+[23]: https://git.haiku-os.org/haiku/commit/?id=29a109bd6c01ce71bb61177ee9ff0417e74c1e18
+[24]: https://github.com/jcs/msTERM
+[25]: https://github.com/NiLuJe/FBInk
