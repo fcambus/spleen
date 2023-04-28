@@ -13,6 +13,9 @@
 ;
 
 org 100h
+	mov	dx, banner
+	mov	ah, 9
+	int	21h
 
 	lea	bp, [spleen]
 	mov	cx, 256
@@ -24,6 +27,10 @@ org 100h
 
 	mov	ax, 4c00h
 	int	21h
+
+banner:
+	db	'Spleen 1.9.3 for DOS.', 0Dh, 0Ah,
+	db	'Copyright (c) 2018-2023, Frederic Cambus', 0Dh, 0Ah, '$'
 
 spleen:
 	db	00000000b
