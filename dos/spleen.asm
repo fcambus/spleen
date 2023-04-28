@@ -17,7 +17,7 @@ org 100h
 	mov	ah, 9
 	int	21h
 
-	lea	bp, [spleen]
+	mov	bp, spleen
 	mov	cx, 256
 	mov	dx, 0
 	mov	bh, 16
