@@ -205,6 +205,7 @@ GitHub: https://github.com/fcambus/spleen
 - Spleen was imported in the NetBSD src tree in March 2019
 - Spleen 12x24 was used in the Haiku [kernel debugger][23] (on high resolution
   displays) from May 2021 to June 2022
+- Spleen was imported in the FreeBSD base system in May 2023
 - [msTERM][24], a Terminal program for MailStation devices uses Spleen 5x8
 - [FBInk][25], a library to print text & images to an eInk Linux framebuffer
   embeds Spleen 16x32
