@@ -210,6 +210,8 @@ GitHub: https://github.com/fcambus/spleen
 - [msTERM][28], a Terminal program for MailStation devices uses Spleen 5x8
 - [FBInk][29], a library to print text & images to an eInk Linux framebuffer
   embeds Spleen 16x32
+- [U8g2][30], a monochrome graphics library for embedded devices includes
+  all Spleen sizes
 
 [1]: https://www.cambus.net/content/2018/09/spleen-hello.png
 [2]: https://www.cambus.net/content/2018/09/spleen-etranger.png
@@ -240,3 +242,4 @@ GitHub: https://github.com/fcambus/spleen
 [27]: https://cgit.freebsd.org/src/commit/?id=0d66206fff44
 [28]: https://github.com/jcs/msTERM
 [29]: https://github.com/NiLuJe/FBInk
+[30]: https://github.com/olikraus/u8g2/wiki/fntgrpspleen
