@@ -41,6 +41,9 @@ characters. Please also note that there is no OpenType version for this size.
 As of Spleen 1.8.0, there is now a 6x12 version containing the same Unicode
 blocks as the 5x8 version and the Latin-1 Supplement Unicode block.
 
+As of Spleen 2.0.0, the 8x16, 16x32 and 32x64 versions have full support for
+Code page 437 (IBM PC).
+
 Spleen also has support for Powerline symbols out of the box.
 
 The font name is a reference to Baudelaire.
