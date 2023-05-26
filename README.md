@@ -118,6 +118,13 @@ Alternatively, release tarballs provide PCF files for each size.
 
 macOS users should use the `.dfont` files provided in the release tarballs.
 
+### DOS
+
+DOS users should run the **SPLEEN.COM** executable provided in the release
+tarballs to enable the font.
+
+This has been tested in DOSBox and FreeDOS on real hardware.
+
 ### Windows
 
 Windows users should use the `.fon` or `.otf` files provided in the release
