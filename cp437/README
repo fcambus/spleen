@@ -1,0 +1,11 @@
+Those files are generaterd using ucs2any(1) from X11's font-util package:
+
+ucs2any spleen-8x16.bdf CP437.TXT ibm-437
+ucs2any spleen-16x32.bdf CP437.TXT ibm-437
+ucs2any spleen-32x64.bdf CP437.TXT ibm-437
+
+They are then manually edited to add the C0 control characters range and
+place the House symbol (U+2302) at position 7F.
+
+The cp437_DOSLatinUS to Unicode table can be downloaded here:
+https://www.unicode.org/Public/MAPPINGS/VENDORS/MICSFT/PC/CP437.TXT
