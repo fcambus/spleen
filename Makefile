@@ -4,7 +4,7 @@
 # https://www.cambus.net/
 #
 # Created:      2019-01-29
-# Last Updated: 2023-05-28
+# Last Updated: 2023-06-01
 #
 # Spleen is released under the BSD 2-Clause license.
 # See LICENSE file for details.
@@ -44,6 +44,9 @@ OTFSIZES =	6x12 8x16 12x24 16x32 32x64
 TARGET =	all
 
 all:	pcf psf fon otb sfd otf
+
+com:
+	$(MAKE) -C dos
 
 pcf:
 .for size in $(SIZES)
