@@ -43,7 +43,7 @@ OTFSIZES =	6x12 8x16 12x24 16x32 32x64
 
 TARGET =	all
 
-all:	pcf psf fon otb sfd otf
+all:	com pcf psf fon otb sfd otf
 
 com:
 	$(MAKE) -C dos
