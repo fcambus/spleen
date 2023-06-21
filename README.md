@@ -207,23 +207,24 @@ Spleen is developed by Frederic Cambus.
 - [Spleen - Monospaced bitmap fonts][21] (2018)
 - [New console font Spleen made default][22] (2019)
 - [NetBSD, CTWM, and Spleen][23] (2021)
+- [Spleen 2.0.0 released with full CP437 support][24] (2023)
 
 GitHub: https://github.com/fcambus/spleen
 
 ## Trivia
 
-- Spleen was imported in the OpenBSD src tree in [September 2018][24]
-- Spleen is the default font for OpenBSD consoles since [January 2019][25]
-- Spleen was imported in the NetBSD src tree in [March 2019][26]
-- Spleen 12x24 was used in the Haiku [kernel debugger][27] (on high resolution
+- Spleen was imported in the OpenBSD src tree in [September 2018][25]
+- Spleen is the default font for OpenBSD consoles since [January 2019][26]
+- Spleen was imported in the NetBSD src tree in [March 2019][27]
+- Spleen 12x24 was used in the Haiku [kernel debugger][28] (on high resolution
   displays) from May 2021 to June 2022
-- Spleen was imported in the FreeBSD base system in [May 2023][28]
-- [msTERM][29], a Terminal program for MailStation devices uses Spleen 5x8
-- [FBInk][30], a library to print text & images to an eInk Linux framebuffer
+- Spleen was imported in the FreeBSD base system in [May 2023][29]
+- [msTERM][30], a Terminal program for MailStation devices uses Spleen 5x8
+- [FBInk][31], a library to print text & images to an eInk Linux framebuffer
   embeds Spleen 16x32
-- [U8g2][31], a monochrome graphics library for embedded devices includes
+- [U8g2][32], a monochrome graphics library for embedded devices includes
   all Spleen sizes
-- [Ansilove][32], an ANSI and ASCII art to PNG converter includes Spleen
+- [Ansilove][33], an ANSI and ASCII art to PNG converter includes Spleen
 
 [1]: https://www.cambus.net/content/2018/09/spleen-hello.png
 [2]: https://www.cambus.net/content/2018/09/spleen-etranger.png
@@ -248,12 +249,13 @@ GitHub: https://github.com/fcambus/spleen
 [21]: https://www.cambus.net/spleen-monospaced-bitmap-fonts/
 [22]: https://undeadly.org/cgi?action=article;sid=20190110064857
 [23]: https://www.cambus.net/netbsd-ctwm-and-spleen/
-[24]: https://freshbsd.org/openbsd/src/commit/5raMrDMpYlPYW01H
-[25]: https://freshbsd.org/openbsd/src/commit/MoBCxKiAlFajRvSm
-[26]: https://freshbsd.org/netbsd/src/commit/TAJuMl9caBpVjGfB
-[27]: https://git.haiku-os.org/haiku/commit/?id=29a109bd6c01ce71bb61177ee9ff0417e74c1e18
-[28]: https://cgit.freebsd.org/src/commit/?id=0d66206fff44
-[29]: https://github.com/jcs/msTERM
-[30]: https://github.com/NiLuJe/FBInk
-[31]: https://github.com/olikraus/u8g2/wiki/fntgrpspleen
-[32]: https://www.ansilove.org
+[24]: https://www.cambus.net/spleen-2.0.0-released-with-full-cp437-support/
+[25]: https://freshbsd.org/openbsd/src/commit/5raMrDMpYlPYW01H
+[26]: https://freshbsd.org/openbsd/src/commit/MoBCxKiAlFajRvSm
+[27]: https://freshbsd.org/netbsd/src/commit/TAJuMl9caBpVjGfB
+[28]: https://git.haiku-os.org/haiku/commit/?id=29a109bd6c01ce71bb61177ee9ff0417e74c1e18
+[29]: https://cgit.freebsd.org/src/commit/?id=0d66206fff44
+[30]: https://github.com/jcs/msTERM
+[31]: https://github.com/NiLuJe/FBInk
+[32]: https://github.com/olikraus/u8g2/wiki/fntgrpspleen
+[33]: https://www.ansilove.org
