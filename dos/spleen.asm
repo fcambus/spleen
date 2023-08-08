@@ -4,7 +4,7 @@
 ; https://www.cambus.net/
 ;
 ; Created:      2023-04-27
-; Last Updated: 2023-05-22
+; Last Updated: 2023-08-08
 ;
 ; Spleen is released under the BSD 2-Clause license.
 ; See LICENSE file for details.
@@ -25,7 +25,7 @@ org 100h
 	mov	ax, 1100h
 	int	10h
 
-	mov	ax, 4Ch
+	mov	ax, 4C00h
 	int	21h
 
 banner:
