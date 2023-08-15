@@ -152,7 +152,7 @@ Update **.Xdefaults** and add one of the following directives:
 Launch **xterm**.
 
 Ubuntu has bitmap fonts support disabled by default, instructions to enable
-it are available [here][19].
+it are available [here][20].
 
 ### Linux console
 
@@ -180,7 +180,7 @@ For example, to load Spleen 16x32:
 ### OpenType versions
 
 Spleen release tarballs now contains OTF versions generated automatically
-from the BDF files, using [bdf2sfd][20]. Each font has a different name,
+from the BDF files, using [bdf2sfd][21]. Each font has a different name,
 allowing them to be installed alongside.
 
 They should be used in the exact size specified below, with anti-aliasing
@@ -205,27 +205,27 @@ Spleen is developed by Frederic Cambus.
 
 ## Resources
 
-- [Spleen - Monospaced bitmap fonts][21] (2018)
-- [New console font Spleen made default][22] (2019)
-- [NetBSD, CTWM, and Spleen][23] (2021)
-- [Spleen 2.0.0 released with full CP437 support][24] (2023)
+- [Spleen - Monospaced bitmap fonts][22] (2018)
+- [New console font Spleen made default][23] (2019)
+- [NetBSD, CTWM, and Spleen][24] (2021)
+- [Spleen 2.0.0 released with full CP437 support][25] (2023)
 
 GitHub: https://github.com/fcambus/spleen
 
 ## Trivia
 
-- Spleen was imported in the OpenBSD src tree in [September 2018][25]
-- Spleen is the default font for OpenBSD consoles since [January 2019][26]
-- Spleen was imported in the NetBSD src tree in [March 2019][27]
-- Spleen 12x24 was used in the Haiku [kernel debugger][28] (on high resolution
+- Spleen was imported in the OpenBSD src tree in [September 2018][26]
+- Spleen is the default font for OpenBSD consoles since [January 2019][27]
+- Spleen was imported in the NetBSD src tree in [March 2019][28]
+- Spleen 12x24 was used in the Haiku [kernel debugger][29] (on high resolution
   displays) from May 2021 to June 2022
-- Spleen was imported in the FreeBSD base system in [May 2023][29]
-- [msTERM][30], a Terminal program for MailStation devices uses Spleen 5x8
-- [FBInk][31], a library to print text & images to an eInk Linux framebuffer
+- Spleen was imported in the FreeBSD base system in [May 2023][30]
+- [msTERM][31], a Terminal program for MailStation devices uses Spleen 5x8
+- [FBInk][32], a library to print text & images to an eInk Linux framebuffer
   embeds Spleen 16x32
-- [U8g2][32], a monochrome graphics library for embedded devices includes
+- [U8g2][33], a monochrome graphics library for embedded devices includes
   all Spleen sizes
-- [Ansilove][33], an ANSI and ASCII art to PNG converter includes Spleen
+- [Ansilove][34], an ANSI and ASCII art to PNG converter includes Spleen
 
 [1]: https://www.cambus.net/content/2018/09/spleen-hello.png
 [2]: https://www.cambus.net/content/2018/09/spleen-etranger.png
