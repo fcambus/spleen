@@ -105,6 +105,7 @@ Spleen packages are available for:
 - [Ubuntu][16]
 - [MacPorts][17]
 - [Guix][18]
+- [Gentoo][19]
 
 ## Manual installation
 
@@ -244,18 +245,19 @@ GitHub: https://github.com/fcambus/spleen
 [16]: https://packages.ubuntu.com/search?keywords=spleen
 [17]: https://ports.macports.org/port/font-spleen/
 [18]: https://packages.guix.gnu.org/packages/font-spleen/
-[19]: https://wiki.ubuntu.com/Fonts#Enabling_Bitmapped_Fonts
-[20]: https://github.com/fcambus/bdf2sfd
-[21]: https://www.cambus.net/spleen-monospaced-bitmap-fonts/
-[22]: https://undeadly.org/cgi?action=article;sid=20190110064857
-[23]: https://www.cambus.net/netbsd-ctwm-and-spleen/
-[24]: https://www.cambus.net/spleen-2.0.0-released-with-full-cp437-support/
-[25]: https://freshbsd.org/openbsd/src/commit/5raMrDMpYlPYW01H
-[26]: https://freshbsd.org/openbsd/src/commit/MoBCxKiAlFajRvSm
-[27]: https://freshbsd.org/netbsd/src/commit/TAJuMl9caBpVjGfB
-[28]: https://git.haiku-os.org/haiku/commit/?id=29a109bd6c01ce71bb61177ee9ff0417e74c1e18
-[29]: https://cgit.freebsd.org/src/commit/?id=0d66206fff44
-[30]: https://github.com/jcs/msTERM
-[31]: https://github.com/NiLuJe/FBInk
-[32]: https://github.com/olikraus/u8g2/wiki/fntgrpspleen
-[33]: https://www.ansilove.org
+[19]: https://packages.gentoo.org/packages/media-fonts/spleen
+[20]: https://wiki.ubuntu.com/Fonts#Enabling_Bitmapped_Fonts
+[21]: https://github.com/fcambus/bdf2sfd
+[22]: https://www.cambus.net/spleen-monospaced-bitmap-fonts/
+[23]: https://undeadly.org/cgi?action=article;sid=20190110064857
+[24]: https://www.cambus.net/netbsd-ctwm-and-spleen/
+[25]: https://www.cambus.net/spleen-2.0.0-released-with-full-cp437-support/
+[26]: https://freshbsd.org/openbsd/src/commit/5raMrDMpYlPYW01H
+[27]: https://freshbsd.org/openbsd/src/commit/MoBCxKiAlFajRvSm
+[28]: https://freshbsd.org/netbsd/src/commit/TAJuMl9caBpVjGfB
+[29]: https://git.haiku-os.org/haiku/commit/?id=29a109bd6c01ce71bb61177ee9ff0417e74c1e18
+[30]: https://cgit.freebsd.org/src/commit/?id=0d66206fff44
+[31]: https://github.com/jcs/msTERM
+[32]: https://github.com/NiLuJe/FBInk
+[33]: https://github.com/olikraus/u8g2/wiki/fntgrpspleen
+[34]: https://www.ansilove.org
