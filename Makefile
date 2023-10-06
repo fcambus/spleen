@@ -4,7 +4,7 @@
 # https://www.cambus.net/
 #
 # Created:      2019-01-29
-# Last Updated: 2023-06-01
+# Last Updated: 2023-10-06
 #
 # Spleen is released under the BSD 2-Clause license.
 # See LICENSE file for details.
@@ -16,7 +16,7 @@ BDFTOPCF ?=	bdftopcf
 BDF2PSF ?=	bdf2psf
 BDF2SFD ?=	bdf2sfd
 FONTFORGE ?=	fontforge
-OPTIPNG ?=	optipng
+OXIPNG ?=	oxipng
 FONTTOSFNT ?=	fonttosfnt
 
 PBMTEXT ?=	pbmtext
@@ -87,7 +87,7 @@ screenshots:
 	$(PPMCHANGE) white black | \
 	$(PNMTOPNG) > spleen-${size}.png
 .endfor
-	$(OPTIPNG) *.png
+	$(OXIPNG) -o max *.png
 
 specimen:
 	printf "\n  Spleen         " | \
@@ -123,7 +123,7 @@ specimen:
 	$(PNMPASTE) - 364 100 specimen.pnm | \
 	$(PNMTOPNG) > specimen.png
 	rm *.pnm
-	$(OPTIPNG) *.png
+	$(OXIPNG) -o max *.png
 
 clean:
 	rm -f *.bak *.dfont *.fon *.gz *.sfd *.otb *.otf *.pcf *.psfu spleen*.png
