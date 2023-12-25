@@ -1,3 +1,11 @@
+Spleen 2.0.2 (2023-12-25)
+
+- Fix MALE and FEMALE character ordering in the 16x32 and 32x64
+  versions (Thanks Mike Cui)
+- Update README to add a link to the Alpine Linux package
+
+
+
 Spleen 2.0.1 (2023-11-17)
 
 - Add a 'com' target to generate SPLEEN.COM, the DOS version of Spleen
