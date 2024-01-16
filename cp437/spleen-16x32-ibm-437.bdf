@@ -1,7 +1,7 @@
 STARTFONT 2.1
 COMMENT /*
 COMMENT  * Spleen 16x32 2.0.2
-COMMENT  * Copyright (c) 2018-2023, Frederic Cambus
+COMMENT  * Copyright (c) 2018-2024, Frederic Cambus
 COMMENT  * https://www.cambus.net/
 COMMENT  *
 COMMENT  * Created:      2018-08-12
@@ -33,7 +33,7 @@ CHARSET_ENCODING "437"
 MIN_SPACE 16
 FONT_ASCENT 26
 FONT_DESCENT 6
-COPYRIGHT "Copyright (c) 2018-2023, Frederic Cambus"
+COPYRIGHT "Copyright (c) 2018-2024, Frederic Cambus"
 DEFAULT_CHAR 32
 _GBDFED_INFO "Edited with gbdfed 1.6."
 ENDPROPERTIES

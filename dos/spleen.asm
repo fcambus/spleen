@@ -1,6 +1,6 @@
 ;
 ; Spleen 2.0.2
-; Copyright (c) 2018-2023, Frederic Cambus
+; Copyright (c) 2018-2024, Frederic Cambus
 ; https://www.cambus.net/
 ;
 ; Created:      2023-04-27
@@ -30,7 +30,7 @@ org 100h
 
 banner:
 	db	'Spleen 2.0.2 for DOS.', 0Dh, 0Ah,
-	db	'Copyright (c) 2018-2023, Frederic Cambus', 0Dh, 0Ah, '$'
+	db	'Copyright (c) 2018-2024, Frederic Cambus', 0Dh, 0Ah, '$'
 
 spleen:
 	db	00000000b
