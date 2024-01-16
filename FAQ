@@ -24,3 +24,17 @@ Spleen F.A.Q.
 	bold characters either.
 
 	Color highlighting should be preferred instead.
+
+
+
+2) How are wsfont header files (for OpenBSD and NetBSD) generated?
+
+	The files are manually generated in two steps:
+
+	- Exporting the BDF files to PSF using the gbdfed editor, selecting
+	  only characters from the first page (Basic Latin and Latin-1
+	  Supplement Unicode blocks).
+
+	- Running the output through psf2bsd(1) from the psftools package.
+	  The files are then edited to add empty glyphes for the C1 Controls
+	  characters in the 0x80 through 0x9F range.
