@@ -186,6 +186,9 @@ Spleen release tarballs now contains OTF versions generated automatically
 from the BDF files, using [bdf2sfd][22]. Each font has a different name,
 allowing them to be installed alongside.
 
+Please note that OTF versions should be used as last resort, always prefer
+bitmap versions if they are supported on your platform.
+
 They should be used in the exact size specified below, with anti-aliasing
 disabled.
 
