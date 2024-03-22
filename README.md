@@ -117,6 +117,8 @@ Clone the repository, convert the files to the Portable Compiled Format
 
 Alternatively, release tarballs provide PCF files for each size.
 
+OTB versions are also available.
+
 ### macOS
 
 macOS users should use the `.dfont` files provided in the release tarballs.
