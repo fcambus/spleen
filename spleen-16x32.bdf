@@ -5,7 +5,7 @@ COMMENT  * Copyright (c) 2018-2024, Frederic Cambus
 COMMENT  * https://www.cambus.net/
 COMMENT  *
 COMMENT  * Created:      2018-08-12
-COMMENT  * Last Updated: 2024-02-29
+COMMENT  * Last Updated: 2024-03-22
 COMMENT  *
 COMMENT  * Spleen is released under the BSD 2-Clause license.
 COMMENT  * See LICENSE file for details.
@@ -16642,7 +16642,7 @@ BITMAP
 318C
 318C
 318C
-3BDC
+399C
 1FF8
 0FF0
 0000
@@ -16681,7 +16681,7 @@ BITMAP
 318C
 318C
 318C
-3BDC
+398C
 1FFE
 0FFF
 0003
