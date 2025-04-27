@@ -53,10 +53,10 @@ com:
 pcf: $(addprefix spleen-,$(SIZES:=.pcf))
 
 %.psfu: %.bdf
-        $(BDF2PSF) --fb $< $(OPTIONS) $@ 2>1 | grep -Ev "^WARNING: "
+        $(BDF2PSF) --fb $< $(OPTIONS) $@
 
-# No PSF-based console supports 32x64 bitmap fonts, so filter that size out
-psf: $(addprefix spleen-,$(filter-out 32x64.%,$(SIZES:=.psfu)))
+# 32x64 fonts require supported linux kernel 6.12 and kbd 2.6.0 or newer
+psf: $(addprefix spleen-,$(SIZES:=.psfu))
 
 %.fon: %.bdf
         $(FONTFORGE) -lang ff -c 'Open("$<"); Generate("$@")'
