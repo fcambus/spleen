@@ -4,7 +4,7 @@
 # https://www.cambus.net/
 #
 # Created:      2019-01-29
-# Last Updated: 2023-10-06
+# Last Updated: 2025-12-28
 #
 # Spleen is released under the BSD 2-Clause license.
 # See LICENSE file for details.
@@ -18,6 +18,7 @@ BDF2SFD ?=	bdf2sfd
 FONTFORGE ?=	fontforge
 OXIPNG ?=	oxipng
 FONTTOSFNT ?=	fonttosfnt
+PYFTSUBSET ?=	pyftsubset
 
 PBMTEXT ?=	pbmtext
 PPMCHANGE ?=	ppmchange
@@ -43,7 +44,7 @@ OTFSIZES =	6x12 8x16 12x24 16x32 32x64
 
 TARGET =	all
 
-all:	com pcf psf fon otb sfd otf
+all:	com pcf psf fon otb sfd otf woff woff2
 
 com:
 	$(MAKE) -C dos
@@ -77,6 +78,16 @@ sfd:
 otf:
 .for size in $(OTFSIZES)
 	$(FONTFORGE) -lang ff -c 'Open("spleen-${size}.sfd"); Generate("spleen-${size}.otf")'
+.endfor
+
+woff:
+.for size in $(OTFSIZES)
+	$(PYFTSUBSET) spleen-${size}.otf --output-file=webfonts/spleen-${size}.woff --flavor=woff --layout-features='*' --glyphs='*' --drop-tables+=FFTM --with-zopfli
+.endfor
+
+woff2:
+.for size in $(OTFSIZES)
+	$(PYFTSUBSET) spleen-${size}.otf --output-file=webfonts/spleen-${size}.woff2 --flavor=woff2 --layout-features='*' --glyphs='*' --drop-tables+=FFTM
 .endfor
 
 screenshots:
@@ -127,3 +138,4 @@ specimen:
 
 clean:
 	rm -f *.bak *.dfont *.fon *.gz *.sfd *.otb *.otf *.pcf *.psfu spleen*.png
+	rm -f webfonts/*.woff webfonts/*.woff2
