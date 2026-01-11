@@ -4,7 +4,7 @@
 # https://www.cambus.net/
 #
 # Created:      2019-01-29
-# Last Updated: 2025-12-28
+# Last Updated: 2026-01-12
 #
 # Spleen is released under the BSD 2-Clause license.
 # See LICENSE file for details.
@@ -82,12 +82,12 @@ otf:
 
 woff:
 .for size in $(OTFSIZES)
-	$(PYFTSUBSET) spleen-${size}.otf --output-file=webfonts/spleen-${size}.woff --flavor=woff --layout-features='*' --glyphs='*' --drop-tables+=FFTM --with-zopfli
+	$(PYFTSUBSET) spleen-${size}.otf --output-file=spleen-${size}.woff --flavor=woff --layout-features='*' --glyphs='*' --drop-tables+=FFTM --with-zopfli
 .endfor
 
 woff2:
 .for size in $(OTFSIZES)
-	$(PYFTSUBSET) spleen-${size}.otf --output-file=webfonts/spleen-${size}.woff2 --flavor=woff2 --layout-features='*' --glyphs='*' --drop-tables+=FFTM
+	$(PYFTSUBSET) spleen-${size}.otf --output-file=spleen-${size}.woff2 --flavor=woff2 --layout-features='*' --glyphs='*' --drop-tables+=FFTM
 .endfor
 
 screenshots:
@@ -137,5 +137,4 @@ specimen:
 	$(OXIPNG) -o max *.png
 
 clean:
-	rm -f *.bak *.dfont *.fon *.gz *.sfd *.otb *.otf *.pcf *.psfu spleen*.png
-	rm -f webfonts/*.woff webfonts/*.woff2
+	rm -f *.bak *.dfont *.fon *.gz *.sfd *.otb *.otf *.pcf *.psfu *.woff *.woff2 spleen*.png
