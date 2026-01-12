@@ -92,10 +92,21 @@ woff2:	$(WOFF2S)
 	$(FONTFORGE) -lang ff -c 'Open("$<"); Generate("$@")'
 
 .otf.woff:
-	$(PYFTSUBSET) $< --output-file=$@ --flavor=woff --layout-features='*' --glyphs='*' --drop-tables+=FFTM --with-zopfli
+	$(PYFTSUBSET) $< \
+		--output-file=$@ \
+		--flavor=woff \
+		--layout-features='*' \
+		--glyphs='*' \
+		--drop-tables+=FFTM \
+		--with-zopfli
 
 .otf.woff2:
-	$(PYFTSUBSET) $< --output-file=$@ --flavor=woff2 --layout-features='*' --glyphs='*' --drop-tables+=FFTM
+	$(PYFTSUBSET) $< \
+		--output-file=$@ \
+		--flavor=woff2 \
+		--layout-features='*' \
+		--glyphs='*' \
+		--drop-tables+=FFTM
 
 .bdf.png:
 	awk 'BEGIN { for (c = 32; c < 127; c++) printf "%c", c }' | \
@@ -129,7 +140,7 @@ specimen:
 	printf "     0123456789  " | \
 	$(PBMTEXT) -font spleen-32x64.bdf -nomargins | \
 	$(PPMCHANGE) white "#ff2a7f" | \
-	$(PPMCHANGE) black "#fff"  > digits.pnm
+	$(PPMCHANGE) black "#fff" > digits.pnm
 
 	$(PNMCAT) -tb spleen.pnm examples.pnm future.pnm letters.pnm digits.pnm > specimen.pnm
 
