@@ -154,5 +154,7 @@ specimen:
 	rm *.pnm
 	$(OXIPNG) -o max *.png
 
+.PHONY: all com pcf psf fon otb sfd otf woff woff2 screenshots specimen clean
+
 clean:
 	rm -f *.bak *.dfont *.fon *.gz *.sfd *.otb *.otf *.pcf *.psfu *.woff *.woff2 spleen*.png
