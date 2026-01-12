@@ -42,62 +42,69 @@ OPTIONS =	$(EQUIVALENT) $(FONTSET) 512
 SIZES =		5x8 6x12 8x16 12x24 16x32 32x64
 OTFSIZES =	6x12 8x16 12x24 16x32 32x64
 
-TARGET =	all
+PCFS =		$(SIZES:%=spleen-%.pcf)
+PSFS =		$(SIZES:%=spleen-%.psfu)
+FONS =		$(SIZES:%=spleen-%.fon)
+OTBS =		$(SIZES:%=spleen-%.otb)
 
-all:	com pcf psf fon otb sfd otf woff woff2
+SFDS =		$(OTFSIZES:%=spleen-%.sfd)
+OTFS =		$(OTFSIZES:%=spleen-%.otf)
+
+WOFFS =		$(OTFSIZES:%=spleen-%.woff)
+WOFF2S =	$(OTFSIZES:%=spleen-%.woff2)
+
+PNGS =		$(SIZES:%=spleen-%.png)
+
+all: com pcf psf fon otb sfd otf woff woff2
 
 com:
 	$(MAKE) -C dos
 
-pcf:
-.for size in $(SIZES)
-	$(BDFTOPCF) -t -o spleen-${size}.pcf spleen-${size}.bdf
-.endfor
+pcf:	$(PCFS)
+psf:	$(PSFS)
+fon:	$(FONS)
+otb:	$(OTBS)
+sfd:	$(SFDS)
+otf:	$(OTFS)
+woff:	$(WOFFS)
+woff2:	$(WOFF2S)
 
-psf:
-.for size in $(SIZES)
-	$(BDF2PSF) --fb spleen-${size}.bdf $(OPTIONS) spleen-${size}.psfu
-.endfor
+.SUFFIXES: .bdf .pcf .psfu .fon .otb .sfd .otf .woff .woff2 .png
 
-fon:
-.for size in $(SIZES)
-	$(FONTFORGE) -lang ff -c 'Open("spleen-${size}.bdf"); Generate("spleen-${size}.fon")'
-.endfor
+.bdf.pcf:
+	$(BDFTOPCF) -t -o $@ $<
 
-otb:
-.for size in $(SIZES)
-	$(FONTTOSFNT) -b -c -o spleen-${size}.otb spleen-${size}.bdf
-.endfor
+.bdf.psfu:
+	$(BDF2PSF) --fb $< $(OPTIONS) $@
 
-sfd:
-.for size in $(OTFSIZES)
-	$(BDF2SFD) -f "Spleen ${size}" -p "Spleen${size}" spleen-${size}.bdf > spleen-${size}.sfd
-	$(FONTFORGE) -lang ff -c 'Open("spleen-${size}.sfd"); SelectAll(); RemoveOverlap(); Simplify(-1, 1); Save("spleen-${size}.sfd")'
-.endfor
+.bdf.fon:
+	$(FONTFORGE) -lang ff -c 'Open("$<"); Generate("$@")'
 
-otf:
-.for size in $(OTFSIZES)
-	$(FONTFORGE) -lang ff -c 'Open("spleen-${size}.sfd"); Generate("spleen-${size}.otf")'
-.endfor
+.bdf.otb:
+	$(FONTTOSFNT) -b -c -o $@ $<
 
-woff:
-.for size in $(OTFSIZES)
-	$(PYFTSUBSET) spleen-${size}.otf --output-file=spleen-${size}.woff --flavor=woff --layout-features='*' --glyphs='*' --drop-tables+=FFTM --with-zopfli
-.endfor
+.bdf.sfd:
+	size=`echo "$@" | sed -e 's/^spleen-//' -e 's/\.sfd$$//'`; \
+	$(BDF2SFD) -f "Spleen $$size" -p "Spleen$$size" $< > $@; \
+	$(FONTFORGE) -lang ff -c 'Open("$@"); SelectAll(); RemoveOverlap(); Simplify(-1,1); Save("$@")'
 
-woff2:
-.for size in $(OTFSIZES)
-	$(PYFTSUBSET) spleen-${size}.otf --output-file=spleen-${size}.woff2 --flavor=woff2 --layout-features='*' --glyphs='*' --drop-tables+=FFTM
-.endfor
+.sfd.otf:
+	$(FONTFORGE) -lang ff -c 'Open("$<"); Generate("$@")'
 
-screenshots:
-.for size in $(SIZES)
-	awk 'BEGIN { for(chr = 32; chr < 127; chr++) printf "%c", chr }' | \
-	$(PBMTEXT) -font spleen-${size}.bdf -nomargins | \
+.otf.woff:
+	$(PYFTSUBSET) $< --output-file=$@ --flavor=woff --layout-features='*' --glyphs='*' --drop-tables+=FFTM --with-zopfli
+
+.otf.woff2:
+	$(PYFTSUBSET) $< --output-file=$@ --flavor=woff2 --layout-features='*' --glyphs='*' --drop-tables+=FFTM
+
+.bdf.png:
+	awk 'BEGIN { for (c = 32; c < 127; c++) printf "%c", c }' | \
+	$(PBMTEXT) -font $< -nomargins | \
 	$(PPMCHANGE) black "#aaa" | \
 	$(PPMCHANGE) white black | \
-	$(PNMTOPNG) > spleen-${size}.png
-.endfor
+	$(PNMTOPNG) > $@
+
+screenshots: $(PNGS)
 	$(OXIPNG) -o max *.png
 
 specimen:
