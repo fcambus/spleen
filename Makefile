@@ -4,7 +4,7 @@
 # https://www.cambus.net/
 #
 # Created:      2019-01-29
-# Last Updated: 2026-01-12
+# Last Updated: 2026-01-30
 #
 # Spleen is released under the BSD 2-Clause license.
 # See LICENSE file for details.
@@ -153,6 +153,9 @@ specimen:
 	$(PNMTOPNG) > specimen.png
 	rm *.pnm
 	$(OXIPNG) -o max *.png
+
+check:
+	$(MAKE) -C tests check
 
 .PHONY: all com pcf psf fon otb sfd otf woff woff2 screenshots specimen clean
 
