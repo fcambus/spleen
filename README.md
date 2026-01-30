@@ -26,8 +26,8 @@ Spleen is a monospaced bitmap font available in 6 sizes:
 
 Each size is provided in the Glyph Bitmap Distribution Format (BDF), and
 release tarballs contain the fonts in the following formats: `PCF`, `PSF`
-(for the Linux console), `OTB`, `OTF`, `.dfont` for macOS users, and `FON`
-for Windows users.
+(for the Linux console), `OTB`, `OTF`, `WOFF`, `WOFF2`, `.dfont` for macOS
+users, and `FON` for Windows users.
 
 All font sizes contain all ISO/IEC 8859-1 characters (Basic Latin and Latin-1
 Supplement Unicode block), Latin Extended-A characters, as well as Box Drawing,
@@ -197,6 +197,15 @@ disabled.
 - Spleen 12x24: 18 Pt (24 pixels)
 - Spleen 16x32: 24 Pt (32 pixels)
 - Spleen 32x64: 48 Pt (64 pixels)
+
+### Web Fonts
+
+Release tarballs provide WOFF and WOFF2 versions suitable for use on the Web.
+
+As with the OpenType versions from which they are generated, WOFF and WOFF2
+fonts should be used at their native pixel sizes, with font smoothing and
+anti-aliasing disabled when possible, to preserve the original bitmap
+appearance.
 
 ## License
 
