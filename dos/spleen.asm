@@ -4,7 +4,7 @@
 ; https://www.cambus.net/
 ;
 ; Created:      2023-04-27
-; Last Updated: 2023-08-08
+; Last Updated: 2026-03-15
 ;
 ; Spleen is released under the BSD 2-Clause license.
 ; See LICENSE file for details.
@@ -29,8 +29,8 @@ org 100h
 	int	21h
 
 banner:
-	db	'Spleen 2.2.0 for DOS.', 0Dh, 0Ah,
-	db	'Copyright (c) 2018-2026, Frederic Cambus', 0Dh, 0Ah, '$'
+	db	"Spleen 2.2.0 for DOS.", 0Dh, 0Ah,
+	db	"Copyright (c) 2018-2026, Frederic Cambus", 0Dh, 0Ah, "$"
 
 spleen:
 	db	00000000b
