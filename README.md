@@ -232,15 +232,16 @@ GitHub: https://github.com/fcambus/spleen
 - Spleen was imported in the OpenBSD src tree in [September 2018][27]
 - Spleen is the default font for OpenBSD consoles since [January 2019][28]
 - Spleen was imported in the NetBSD src tree in [March 2019][29]
-- Spleen 12x24 was used in the Haiku [kernel debugger][30] (on high resolution
+- Spleen was imported in the NetBSD xsrc tree in [October 2020][30]
+- Spleen 12x24 was used in the Haiku [kernel debugger][31] (on high resolution
   displays) from May 2021 to June 2022
-- Spleen was imported in the FreeBSD base system in [May 2023][31]
-- [msTERM][32], a Terminal program for MailStation devices uses Spleen 5x8
-- [FBInk][33], a library to print text & images to an eInk Linux framebuffer
+- Spleen was imported in the FreeBSD base system in [May 2023][32]
+- [msTERM][33], a Terminal program for MailStation devices uses Spleen 5x8
+- [FBInk][34], a library to print text & images to an eInk Linux framebuffer
   embeds Spleen 16x32
-- [U8g2][34], a monochrome graphics library for embedded devices includes
+- [U8g2][35], a monochrome graphics library for embedded devices includes
   all Spleen sizes
-- [Ansilove][35], an ANSI and ASCII art to PNG converter includes Spleen
+- [Ansilove][36], an ANSI and ASCII art to PNG converter includes Spleen
 
 [1]: https://www.cambus.net/content/2018/09/spleen-hello.png
 [2]: https://www.cambus.net/content/2018/09/spleen-etranger.png
@@ -271,9 +272,10 @@ GitHub: https://github.com/fcambus/spleen
 [27]: https://freshbsd.org/openbsd/src/commit/5raMrDMpYlPYW01H
 [28]: https://freshbsd.org/openbsd/src/commit/MoBCxKiAlFajRvSm
 [29]: https://freshbsd.org/netbsd/src/commit/TAJuMl9caBpVjGfB
-[30]: https://git.haiku-os.org/haiku/commit/?id=29a109bd6c01ce71bb61177ee9ff0417e74c1e18
-[31]: https://cgit.freebsd.org/src/commit/?id=0d66206fff44
-[32]: https://github.com/jcs/msTERM
-[33]: https://github.com/NiLuJe/FBInk
-[34]: https://github.com/olikraus/u8g2/wiki/fntgrpspleen
-[35]: https://www.ansilove.org
+[30]: https://freshbsd.org/netbsd/xsrc/commit/ltINGQFMDlVR4drC
+[31]: https://git.haiku-os.org/haiku/commit/?id=29a109bd6c01ce71bb61177ee9ff0417e74c1e18
+[32]: https://cgit.freebsd.org/src/commit/?id=0d66206fff44
+[33]: https://github.com/jcs/msTERM
+[34]: https://github.com/NiLuJe/FBInk
+[35]: https://github.com/olikraus/u8g2/wiki/fntgrpspleen
+[36]: https://www.ansilove.org
