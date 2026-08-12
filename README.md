@@ -162,6 +162,11 @@ it are available [here][21].
 Release tarballs provide PSF files for each size, `setfont` can be used
 to load and set the desired font.
 
+With Linux 6.9 or later and kbd 2.7 or later, the 32x64 version can be
+doubled to 64x128, the maximum font size supported by fbcon:
+
+	setfont -d spleen-32x64.psfu
+
 ### NetBSD console
 
 NetBSD has .fnt files for each size which can be loaded using wsfontload(8).
