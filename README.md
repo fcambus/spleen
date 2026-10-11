@@ -195,7 +195,10 @@ Please note that OTF versions should be used as last resort, always prefer
 bitmap versions if they are supported on your platform.
 
 They should be used in the exact size specified below, with anti-aliasing
-disabled.
+disabled. These point sizes assume 96 DPI. For applications using a
+different logical DPI, the corresponding point size can be calculated as:
+
+	point size = native pixel height * 72 / logical DPI
 
 - Spleen 6x12: 9 Pt (12 pixels)
 - Spleen 8x16: 12 Pt (16 pixels)
