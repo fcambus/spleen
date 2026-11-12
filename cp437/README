@@ -1,6 +1,7 @@
 Those files are generaterd using ucs2any(1) from X11's font-util package:
 
 ucs2any spleen-8x16.bdf CP437.TXT ibm-437
+ucs2any spleen-12x24.bdf CP437.TXT ibm-437
 ucs2any spleen-16x32.bdf CP437.TXT ibm-437
 ucs2any spleen-32x64.bdf CP437.TXT ibm-437
 
