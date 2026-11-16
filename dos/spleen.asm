@@ -1,5 +1,5 @@
 ;
-; Spleen 2.2.0
+; Spleen 2.3.0
 ; Copyright (c) 2018-2026, Frederic Cambus
 ; https://www.cambus.net/
 ;
@@ -41,7 +41,7 @@ banner:
 	db	"                                           :::              :::    ", 0Dh, 0Ah,
 	db	"                                           ::::::::::::::::::::    ", 0Dh, 0Ah,
 	db	0Dh, 0Ah,
-	db	"Spleen 2.2.0 for DOS.", 0Dh, 0Ah,
+	db	"Spleen 2.3.0 for DOS.", 0Dh, 0Ah,
 	db	"Copyright (c) 2018-2026, Frederic Cambus", 0Dh, 0Ah, "$"
 
 spleen:
