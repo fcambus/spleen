@@ -1,3 +1,32 @@
+Spleen 2.3.0 (2026-11-17)
+
+- Complete basic Greek uppercase and lowercase coverage in the 8x16,
+  12x24, 16x32, and 32x64 versions
+- Bring character coverage in the 12x24 version in line with the 8x16,
+  16x32, and 32x64 versions
+- Add trade mark, check mark, and cross mark signs in the 8x16, 12x24,
+  16x32, and 32x64 versions
+- Add and document the 12x24 CP437 variant
+- Add a raw DOS CP437 font export for Spleen 8x16
+- Fix Greek capital letter gamma position in the 12x24 version
+- Fix vertical alignment of Greek small letter pi in the 16x32 and
+  32x64 versions and their CP437 variants
+- Widen the bowl of Greek small letter sigma in the 16x32 and 32x64
+  versions and their CP437 variants
+- Fix single angle quotation marks alignment in the 12x24 version
+- Fix bottom-right pixel in U and u with tilde in the 8x16 version
+- Fix left quarter block width in the 12x24 version
+- Fix alignment of U+252D and U+252E in the 8x16 version
+- Improve the light shade pattern in the 12x24 versions
+- Use double quoted strings for the banner strings in the DOS version
+- Display H7's Spleen ASCii logo header in the DOS version
+- Regenerate dos/spleen.com after the banner update
+- Document how to double the 32x64 font on the Linux console
+- Clarify the DPI assumption for OTF point sizes
+- Mention the import of Spleen in the NetBSD xsrc repository
+
+
+
 Spleen 2.2.0 (2026-02-01)
 
 - Add stand alone caron in the 8x16, 12x24, 16x32, and 32x64 versions
