@@ -237,6 +237,8 @@ GitHub: https://github.com/fcambus/spleen
 
 ## Trivia
 
+- Spleen was originally created in 2018 as a 5x8 font for small OLED displays
+  supported by OpenBSD
 - Spleen was imported in the OpenBSD src tree in [September 2018][27]
 - Spleen is the default font for OpenBSD consoles since [January 2019][28]
 - Spleen was imported in the NetBSD src tree in [March 2019][29]
