@@ -252,6 +252,8 @@ GitHub: https://github.com/fcambus/spleen
 - [Ansilove][36], an ANSI and ASCII art to PNG converter includes Spleen 8x16
 - [pspssh][37], an SSH client for the PlayStation Portable, uses Spleen 6x12
 - [MisterZine][38], an arcade frontend for MiSTer FPGA, uses Spleen 5x8 and 6x12
+- [reticulum-tdeck][39], firmware for the LilyGO T-Deck LoRa communicator,
+  uses Spleen 6x12 and 8x16
 
 [1]: https://www.cambus.net/content/2018/09/spleen-hello.png
 [2]: https://www.cambus.net/content/2018/09/spleen-etranger.png
@@ -291,3 +293,4 @@ GitHub: https://github.com/fcambus/spleen
 [36]: https://www.ansilove.org
 [37]: https://github.com/cobanov/pspssh
 [38]: https://github.com/matijaerceg/misterzine-on-device
+[39]: https://github.com/varna9000/reticulum-tdeck
