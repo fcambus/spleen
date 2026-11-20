@@ -249,7 +249,7 @@ GitHub: https://github.com/fcambus/spleen
   embeds Spleen 16x32
 - [U8g2][35], a monochrome graphics library for embedded devices includes
   all Spleen sizes
-- [Ansilove][36], an ANSI and ASCII art to PNG converter includes Spleen
+- [Ansilove][36], an ANSI and ASCII art to PNG converter includes Spleen 8x16
 - [pspssh][37], an SSH client for the PlayStation Portable, uses Spleen 6x12
 
 [1]: https://www.cambus.net/content/2018/09/spleen-hello.png
