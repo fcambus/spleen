@@ -183,7 +183,7 @@ in `/usr/share/vt/fonts/` and can be loaded using vidcontrol(1).
 
 For example, to load Spleen 16x32:
 
-	vidcontrol -f spleen-16x32.fnt
+	vidcontrol -f spleen-16x32
 
 ### OpenType versions
 
