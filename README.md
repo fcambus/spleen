@@ -186,6 +186,8 @@ For example, to load Spleen 16x32:
 
 	vidcontrol -f spleen-16x32
 
+For persistent configuration, refer to the [FreeBSD documentation][21].
+
 ### OpenType versions
 
 Spleen release tarballs now contains OTF versions generated automatically
@@ -278,6 +280,7 @@ GitHub: https://github.com/fcambus/spleen
 [18]: https://packages.guix.gnu.org/packages/font-spleen/
 [19]: https://packages.gentoo.org/packages/media-fonts/spleen
 [20]: https://pkgs.alpinelinux.org/packages?name=font-spleen
+[21]: https://docs.freebsd.org/en/books/accessibility/virtual-terminal/#vt4-font
 [22]: https://github.com/fcambus/bdf2sfd
 [23]: https://www.cambus.net/spleen-monospaced-bitmap-fonts/
 [24]: https://undeadly.org/cgi?action=article;sid=20190110064857
