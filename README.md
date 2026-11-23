@@ -154,8 +154,9 @@ Update **.Xdefaults** and add one of the following directives:
 
 Launch **xterm**.
 
-Ubuntu has bitmap fonts support disabled by default, instructions to enable
-it are available [here][21].
+Ubuntu disables bitmap fonts by default in applications using Fontconfig.
+To enable them, run `sudo dpkg-reconfigure fontconfig-config` and select
+"Yes" when prompted to enable bitmapped fonts.
 
 ### Linux console
 
@@ -277,7 +278,6 @@ GitHub: https://github.com/fcambus/spleen
 [18]: https://packages.guix.gnu.org/packages/font-spleen/
 [19]: https://packages.gentoo.org/packages/media-fonts/spleen
 [20]: https://pkgs.alpinelinux.org/packages?name=font-spleen
-[21]: https://wiki.ubuntu.com/Fonts#Enabling_Bitmapped_Fonts
 [22]: https://github.com/fcambus/bdf2sfd
 [23]: https://www.cambus.net/spleen-monospaced-bitmap-fonts/
 [24]: https://undeadly.org/cgi?action=article;sid=20190110064857
