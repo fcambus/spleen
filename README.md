@@ -178,12 +178,12 @@ For example, to load Spleen 16x32:
 
 ### FreeBSD console
 
-The FreeBSD package contains .fnt files which can be loaded using
-vidcontrol(1).
+Spleen is included in the FreeBSD base system. The .fnt files are located
+in `/usr/share/vt/fonts/` and can be loaded using vidcontrol(1).
 
 For example, to load Spleen 16x32:
 
-	vidcontrol -f /usr/local/share/fonts/spleen/spleen-16x32.fnt
+	vidcontrol -f spleen-16x32.fnt
 
 ### OpenType versions
 
